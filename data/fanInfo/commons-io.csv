@@ -1,0 +1,951 @@
+MethodJson	MethodSignature	FanInJsons	FanInSignatures	Accurate?	DiscardDays
+279.json	org.apache.commons.io.input.Tailer.run()	noCall	noCall	true	2664
+866.json	org.apache.commons.io.output.LockableFileWriter.write(java.lang.String)	noCall	noCall	true	5833
+575.json	org.apache.commons.io.monitor.FileAlterationObserver.getListeners()	noCall	noCall	true	3570
+541.json	org.apache.commons.io.serialization.ValidatingObjectInputStream.accept(java.lang.String...)	noCall	noCall	true	787
+875.json	org.apache.commons.io.output.ByteArrayOutputStream.write(byte[], int, int)	noCall	noCall	true	5399
+168.json	org.apache.commons.io.FilenameUtils.getPath(java.lang.String)	noCall	noCall	true	5669
+1078.json	org.apache.commons.io.FileUtils.copyFile(java.io.File, java.io.OutputStream)	noCall	noCall	true	2329
+187.json	org.apache.commons.io.FilenameUtils.isExtension(java.lang.String, java.util.Collection<java.lang.String>)	noCall	noCall	true	4824
+479.json	org.apache.commons.io.input.ReversedLinesFileReader.FilePart.createLeftOver()	null	org.apache.commons.io.input.ReversedLinesFileReader.FilePart.readLine()	true	2252
+503.json	org.apache.commons.io.LineIterator.nextLine()	502.json	org.apache.commons.io.LineIterator.next()	true	4392
+352.json	org.apache.commons.io.input.ObservableInputStream.read(byte[])	361.json	org.apache.commons.io.input.ObservableInputStream.consume()	true	563
+125.json	org.apache.commons.io.EndianUtils.readSwappedInteger(java.io.InputStream)	248.json,130.json	org.apache.commons.io.input.SwappedDataInputStream.readInt(),org.apache.commons.io.EndianUtils.readSwappedFloat(java.io.InputStream)	true	5287
+132.json	org.apache.commons.io.EndianUtils.readSwappedDouble(java.io.InputStream)	244.json	org.apache.commons.io.input.SwappedDataInputStream.readDouble()	true	5287
+1097.json	org.apache.commons.io.FileUtils.forceMkdirParent(java.io.File)	921.json	org.apache.commons.io.output.DeferredFileOutputStream.thresholdReached()	true	1852
+462.json	org.apache.commons.io.input.ProxyInputStream.handleIOException(java.io.IOException)	458.json,455.json,451.json,454.json,452.json,456.json,453.json	org.apache.commons.io.input.ProxyInputStream.reset(),org.apache.commons.io.input.ProxyInputStream.available(),org.apache.commons.io.input.ProxyInputStream.read(),org.apache.commons.io.input.ProxyInputStream.skip(long),org.apache.commons.io.input.ProxyInputStream.read(byte[]),org.apache.commons.io.input.ProxyInputStream.close(),org.apache.commons.io.input.ProxyInputStream.read(byte[], int, int)	true	3257
+703.json	org.apache.commons.io.IOUtils.toByteArray(java.io.InputStream, int)	704.json	org.apache.commons.io.IOUtils.toByteArray(java.io.InputStream, long)	true	2471
+487.json	org.apache.commons.io.FileSystemUtils.freeSpaceKb()	noCall	noCall	true	2872
+130.json	org.apache.commons.io.EndianUtils.readSwappedFloat(java.io.InputStream)	245.json	org.apache.commons.io.input.SwappedDataInputStream.readFloat()	true	5287
+520.json	org.apache.commons.io.comparator.PathFileComparator.compare(java.io.File, java.io.File)	noCall	noCall	true	3662
+270.json	org.apache.commons.io.input.Tailer.create(java.io.File, org.apache.commons.io.input.TailerListener, long, boolean, boolean, int)	269.json,273.json	org.apache.commons.io.input.Tailer.create(java.io.File, org.apache.commons.io.input.TailerListener, long, boolean, int),org.apache.commons.io.input.Tailer.create(java.io.File, org.apache.commons.io.input.TailerListener, long, boolean, boolean)	true	2044
+660.json	org.apache.commons.io.IOUtils.copyLarge(java.io.Reader, java.io.Writer)	655.json	org.apache.commons.io.IOUtils.copy(java.io.Reader, java.io.Writer)	true	4902
+272.json	org.apache.commons.io.input.Tailer.create(java.io.File, org.apache.commons.io.input.TailerListener, long, boolean)	275.json,274.json	org.apache.commons.io.input.Tailer.create(java.io.File, org.apache.commons.io.input.TailerListener),org.apache.commons.io.input.Tailer.create(java.io.File, org.apache.commons.io.input.TailerListener, long)	true	2663
+600.json	org.apache.commons.io.monitor.FileEntry.isExists()	578.json	org.apache.commons.io.monitor.FileAlterationObserver.checkAndNotify()	true	3570
+102.json	org.apache.commons.io.filefilter.NotFileFilter.toString()	noCall	noCall	true	3895
+747.json	org.apache.commons.io.IOUtils.write(java.lang.String, java.io.OutputStream, java.nio.charset.Charset)	null,746.json,743.json,748.json	org.apache.commons.io.FileUtils.writeStringToFile(java.io.File, java.lang.String, java.nio.charset.Charset, boolean),org.apache.commons.io.IOUtils.write(java.lang.String, java.io.OutputStream),org.apache.commons.io.IOUtils.write(java.lang.CharSequence, java.io.OutputStream, java.nio.charset.Charset),org.apache.commons.io.IOUtils.write(java.lang.String, java.io.OutputStream, java.lang.String)	true	2116
+351.json	org.apache.commons.io.input.ObservableInputStream.read()	noCall	noCall	true	563
+250.json	org.apache.commons.io.input.SwappedDataInputStream.readLong()	noCall	noCall	true	5669
+1059.json	org.apache.commons.io.FileUtils.byteCountToDisplaySize(java.math.BigInteger)	1060.json	org.apache.commons.io.FileUtils.byteCountToDisplaySize(long)	true	5833
+694.json	org.apache.commons.io.IOUtils.skip(java.io.Reader, long)	697.json	org.apache.commons.io.IOUtils.skipFully(java.io.Reader, long)	true	2869
+348.json	org.apache.commons.io.input.ObservableInputStream.add(org.apache.commons.io.input.ObservableInputStream.Observer)	noCall	noCall	true	563
+1184.json	org.apache.commons.io.FileSystem.getMaxFileNameLength()	noCall	noCall	true	60
+242.json	org.apache.commons.io.input.SwappedDataInputStream.readByte()	241.json	org.apache.commons.io.input.SwappedDataInputStream.readBoolean()	true	5669
+1115.json	org.apache.commons.io.FileUtils.iterateFilesAndDirs(java.io.File, org.apache.commons.io.filefilter.IOFileFilter, org.apache.commons.io.filefilter.IOFileFilter)	noCall	noCall	true	2145
+21.json	org.apache.commons.io.filefilter.FileFilterUtils.or(org.apache.commons.io.filefilter.IOFileFilter...)	1118.json,1120.json	org.apache.commons.io.FileUtils.listFiles(java.io.File, org.apache.commons.io.filefilter.IOFileFilter, org.apache.commons.io.filefilter.IOFileFilter),org.apache.commons.io.FileUtils.listFilesAndDirs(java.io.File, org.apache.commons.io.filefilter.IOFileFilter, org.apache.commons.io.filefilter.IOFileFilter)	true	2665
+939.json	org.apache.commons.io.output.ProxyWriter.write(char[])	noCall	noCall	true	5131
+755.json	org.apache.commons.io.IOUtils.writeLines(java.util.Collection<?>, java.lang.String, java.io.OutputStream)	noCall	noCall	true	4513
+359.json	org.apache.commons.io.input.ObservableInputStream.getObservers()	354.json,358.json,356.json,357.json,355.json	org.apache.commons.io.input.ObservableInputStream.noteDataBytes(byte[], int, int),org.apache.commons.io.input.ObservableInputStream.noteClosed(),org.apache.commons.io.input.ObservableInputStream.noteDataByte(int),org.apache.commons.io.input.ObservableInputStream.noteError(java.io.IOException),org.apache.commons.io.input.ObservableInputStream.noteFinished()	true	563
+753.json	org.apache.commons.io.IOUtils.writeChunked(byte[], java.io.OutputStream)	noCall	noCall	true	1686
+543.json	org.apache.commons.io.serialization.ValidatingObjectInputStream.accept(java.util.regex.Pattern)	noCall	noCall	true	787
+131.json	org.apache.commons.io.EndianUtils.writeSwappedDouble(java.io.OutputStream, double)	noCall	noCall	true	5287
+1087.json	org.apache.commons.io.FileUtils.decodeUrl(java.lang.String)	1146.json	org.apache.commons.io.FileUtils.toFile(java.net.URL)	true	2665
+682.json	org.apache.commons.io.IOUtils.readLines(java.io.InputStream)	noCall	noCall	true	4534
+207.json	org.apache.commons.io.input.CharSequenceReader.mark(int)	noCall	noCall	true	3662
+1057.json	org.apache.commons.io.IOCase.checkRegionMatches(java.lang.String, int, java.lang.String)	190.json,1056.json	org.apache.commons.io.FilenameUtils.wildcardMatch(java.lang.String, java.lang.String, org.apache.commons.io.IOCase),org.apache.commons.io.IOCase.checkIndexOf(java.lang.String, int, java.lang.String)	true	4221
+190.json	org.apache.commons.io.FilenameUtils.wildcardMatch(java.lang.String, java.lang.String, org.apache.commons.io.IOCase)	188.json,189.json,51.json,52.json	org.apache.commons.io.FilenameUtils.wildcardMatch(java.lang.String, java.lang.String),org.apache.commons.io.FilenameUtils.wildcardMatchOnSystem(java.lang.String, java.lang.String),org.apache.commons.io.filefilter.WildcardFileFilter.accept(java.io.File, java.lang.String),org.apache.commons.io.filefilter.WildcardFileFilter.accept(java.io.File)	true	4868
+210.json	org.apache.commons.io.input.CharSequenceReader.read(char[], int, int)	noCall	noCall	true	3662
+344.json	org.apache.commons.io.input.ObservableInputStream.Observer.data(byte[], int, int)	354.json	org.apache.commons.io.input.ObservableInputStream.noteDataBytes(byte[], int, int)	true	563
+625.json	org.apache.commons.io.IOUtils.buffer(java.io.Reader)	noCall	noCall	true	1730
+922.json	org.apache.commons.io.output.DeferredFileOutputStream.isInMemory()	926.json	org.apache.commons.io.output.DeferredFileOutputStream.writeTo(java.io.OutputStream)	true	5097
+925.json	org.apache.commons.io.output.DeferredFileOutputStream.close()	noCall	noCall	true	4509
+97.json	org.apache.commons.io.filefilter.NameFileFilter.accept(java.io.File, java.lang.String)	noCall	noCall	true	5167
+374.json	org.apache.commons.io.input.CountingInputStream.getByteCount()	372.json	org.apache.commons.io.input.CountingInputStream.getCount()	true	5567
+57.json	org.apache.commons.io.filefilter.OrFileFilter.setFileFilters(java.util.List<org.apache.commons.io.filefilter.IOFileFilter>)	noCall	noCall	true	4830
+409.json	org.apache.commons.io.input.CharSequenceInputStream.read(byte[])	noCall	noCall	true	2145
+701.json	org.apache.commons.io.IOUtils.toBufferedReader(java.io.Reader, int)	noCall	noCall	true	1543
+776.json	org.apache.commons.io.DirectoryWalker.handleEnd(java.util.Collection<T>)	764.json	org.apache.commons.io.DirectoryWalker.walk(java.io.File, java.util.Collection<T>)	true	4193
+201.json	org.apache.commons.io.FileCleaner.exitWhenFinished()	noCall	noCall	true	4059
+599.json	org.apache.commons.io.monitor.FileEntry.setLength(long)	noCall	noCall	true	2656
+1142.json	org.apache.commons.io.FileUtils.sizeOfDirectory(java.io.File)	524.json	org.apache.commons.io.comparator.SizeFileComparator.compare(java.io.File, java.io.File)	true	5669
+98.json	org.apache.commons.io.filefilter.NameFileFilter.toString()	noCall	noCall	true	3895
+281.json	org.apache.commons.io.input.Tailer.readLines(java.io.RandomAccessFile)	279.json	org.apache.commons.io.input.Tailer.run()	true	2664
+597.json	org.apache.commons.io.monitor.FileEntry.setLastModified(long)	noCall	noCall	true	3570
+1166.json	org.apache.commons.io.FileUtils.writeLines(java.io.File, java.util.Collection<?>, boolean)	noCall	noCall	true	4034
+199.json	org.apache.commons.io.FileCleaner.track(java.lang.String, java.lang.Object, org.apache.commons.io.FileDeleteStrategy)	noCall	noCall	true	5051
+1191.json	org.apache.commons.io.FileSystem.isReservedFileName(java.lang.CharSequence)	1190.json	org.apache.commons.io.FileSystem.isLegalFileName(java.lang.CharSequence)	true	58
+510.json	org.apache.commons.io.ThreadMonitor.start(java.lang.Thread, long)	509.json	org.apache.commons.io.ThreadMonitor.start(long)	true	2664
+917.json	org.apache.commons.io.output.DemuxOutputStream.close()	noCall	noCall	true	5669
+222.json	org.apache.commons.io.input.NullInputStream.close()	noCall	noCall	true	4116
+852.json	org.apache.commons.io.output.StringBuilderWriter.write(java.lang.String)	noCall	noCall	true	3630
+556.json	org.apache.commons.io.CopyUtils.copy(java.io.InputStream, java.io.Writer)	552.json	org.apache.commons.io.CopyUtils.copy(byte[], java.io.Writer)	true	5260
+586.json	org.apache.commons.io.monitor.FileAlterationObserver.toString()	noCall	noCall	true	3570
+338.json	org.apache.commons.io.input.BrokenInputStream.read()	noCall	noCall	true	3264
+302.json	org.apache.commons.io.input.BoundedInputStream.setPropagateClose(boolean)	noCall	noCall	true	2665
+94.json	org.apache.commons.io.filefilter.DelegateFileFilter.toString()	noCall	noCall	true	3895
+536.json	org.apache.commons.io.serialization.ValidatingObjectInputStream.validateClassName(java.lang.String)	538.json	org.apache.commons.io.serialization.ValidatingObjectInputStream.resolveClass(java.io.ObjectStreamClass)	true	787
+64.json	org.apache.commons.io.filefilter.PrefixFileFilter.toString()	noCall	noCall	true	3895
+445.json	org.apache.commons.io.input.BOMInputStream.mark(int)	noCall	noCall	true	3333
+9.json	org.apache.commons.io.filefilter.FileFilterUtils.filter(org.apache.commons.io.filefilter.IOFileFilter, java.lang.Iterable<java.io.File>, T)	8.json,5.json	org.apache.commons.io.filefilter.FileFilterUtils.filterSet(org.apache.commons.io.filefilter.IOFileFilter, java.lang.Iterable<java.io.File>),org.apache.commons.io.filefilter.FileFilterUtils.filterList(org.apache.commons.io.filefilter.IOFileFilter, java.lang.Iterable<java.io.File>)	true	2665
+770.json	org.apache.commons.io.DirectoryWalker.handleDirectory(java.io.File, int, java.util.Collection<T>)	765.json	org.apache.commons.io.DirectoryWalker.walk(java.io.File, int, java.util.Collection<T>)	true	4193
+157.json	org.apache.commons.io.FilenameUtils.normalizeNoEndSeparator(java.lang.String, boolean)	noCall	noCall	true	4513
+53.json	org.apache.commons.io.filefilter.WildcardFileFilter.toString()	noCall	noCall	true	3895
+1060.json	org.apache.commons.io.FileUtils.byteCountToDisplaySize(long)	noCall	noCall	true	5833
+456.json	org.apache.commons.io.input.ProxyInputStream.close()	360.json,363.json	org.apache.commons.io.input.ObservableInputStream.close(),org.apache.commons.io.input.TeeInputStream.close()	true	5517
+138.json	org.apache.commons.io.ByteOrderMark.equals(java.lang.Object)	436.json	org.apache.commons.io.input.BOMInputStream.hasBOM(org.apache.commons.io.ByteOrderMark)	true	2660
+246.json	org.apache.commons.io.input.SwappedDataInputStream.readFully(byte[])	noCall	noCall	true	5669
+104.json	org.apache.commons.io.EndianUtils.swapShort(short)	noCall	noCall	true	5287
+581.json	org.apache.commons.io.monitor.FileAlterationObserver.doListFiles(java.io.File, org.apache.commons.io.monitor.FileEntry)	580.json,576.json	org.apache.commons.io.monitor.FileAlterationObserver.createFileEntry(org.apache.commons.io.monitor.FileEntry, java.io.File),org.apache.commons.io.monitor.FileAlterationObserver.initialize()	true	940
+256.json	org.apache.commons.io.input.WindowsLineEndingInputStream.readWithUpdate()	257.json	org.apache.commons.io.input.WindowsLineEndingInputStream.read()	true	1175
+41.json	org.apache.commons.io.filefilter.FileFilterUtils.makeCVSAware(org.apache.commons.io.filefilter.IOFileFilter)	noCall	noCall	true	5167
+355.json	org.apache.commons.io.input.ObservableInputStream.noteFinished()	352.json,351.json,353.json	org.apache.commons.io.input.ObservableInputStream.read(byte[]),org.apache.commons.io.input.ObservableInputStream.read(),org.apache.commons.io.input.ObservableInputStream.read(byte[], int, int)	true	563
+153.json	org.apache.commons.io.FilenameUtils.isSeparator(char)	164.json,159.json	org.apache.commons.io.FilenameUtils.getPrefixLength(java.lang.String),org.apache.commons.io.FilenameUtils.concat(java.lang.String, java.lang.String)	true	4801
+287.json	org.apache.commons.io.input.ClosedInputStream.read()	noCall	noCall	true	3747
+311.json	org.apache.commons.io.input.ProxyReader.read(java.nio.CharBuffer)	noCall	noCall	true	3630
+710.json	org.apache.commons.io.IOUtils.toByteArray(java.net.URL)	709.json,687.json	org.apache.commons.io.IOUtils.toByteArray(java.net.URI),org.apache.commons.io.IOUtils.resourceToByteArray(java.lang.String, java.lang.ClassLoader)	true	2099
+426.json	org.apache.commons.io.input.XmlStreamReader.doHttpStream(org.apache.commons.io.input.BOMInputStream, org.apache.commons.io.input.BOMInputStream, java.lang.String, boolean)	noCall	noCall	true	2660
+248.json	org.apache.commons.io.input.SwappedDataInputStream.readInt()	noCall	noCall	true	5669
+1109.json	org.apache.commons.io.FileUtils.isFileOlder(java.io.File, java.util.Date)	noCall	noCall	true	4192
+1068.json	org.apache.commons.io.FileUtils.contentEquals(java.io.File, java.io.File)	noCall	noCall	true	5669
+518.json	org.apache.commons.io.comparator.NameFileComparator.compare(java.io.File, java.io.File)	noCall	noCall	true	3662
+1137.json	org.apache.commons.io.FileUtils.setUpEffectiveFileFilter(org.apache.commons.io.filefilter.IOFileFilter)	1118.json,1120.json	org.apache.commons.io.FileUtils.listFiles(java.io.File, org.apache.commons.io.filefilter.IOFileFilter, org.apache.commons.io.filefilter.IOFileFilter),org.apache.commons.io.FileUtils.listFilesAndDirs(java.io.File, org.apache.commons.io.filefilter.IOFileFilter, org.apache.commons.io.filefilter.IOFileFilter)	true	2145
+1127.json	org.apache.commons.io.FileUtils.openOutputStream(java.io.File)	1084.json,1149.json	org.apache.commons.io.FileUtils.copyToFile(java.io.InputStream, java.io.File),org.apache.commons.io.FileUtils.touch(java.io.File)	true	4035
+745.json	org.apache.commons.io.IOUtils.write(java.lang.CharSequence, java.io.Writer)	noCall	noCall	true	3630
+146.json	org.apache.commons.io.FileCleaningTracker.getTrackCount()	200.json	org.apache.commons.io.FileCleaner.getTrackCount()	true	3960
+654.json	org.apache.commons.io.IOUtils.copy(java.io.Reader, java.io.OutputStream, java.lang.String)	noCall	noCall	true	4902
+577.json	org.apache.commons.io.monitor.FileAlterationObserver.destroy()	611.json	org.apache.commons.io.monitor.FileAlterationMonitor.stop(long)	true	3570
+812.json	org.apache.commons.io.output.FileWriterWithEncoding.write(java.lang.String, int, int)	noCall	noCall	true	3660
+727.json	org.apache.commons.io.IOUtils.toString(java.io.Reader)	noCall	noCall	true	5287
+455.json	org.apache.commons.io.input.ProxyInputStream.available()	noCall	noCall	true	5517
+239.json	org.apache.commons.io.input.DemuxInputStream.close()	noCall	noCall	true	5669
+806.json	org.apache.commons.io.output.AppendableOutputStream.getAppendable()	noCall	noCall	true	969
+519.json	org.apache.commons.io.comparator.NameFileComparator.toString()	noCall	noCall	true	3333
+32.json	org.apache.commons.io.filefilter.FileFilterUtils.ageFileFilter(java.io.File)	noCall	noCall	true	4396
+693.json	org.apache.commons.io.IOUtils.skip(java.nio.channels.ReadableByteChannel, long)	696.json	org.apache.commons.io.IOUtils.skipFully(java.nio.channels.ReadableByteChannel, long)	true	1871
+244.json	org.apache.commons.io.input.SwappedDataInputStream.readDouble()	noCall	noCall	true	5669
+1074.json	org.apache.commons.io.FileUtils.copyDirectory(java.io.File, java.io.File, java.io.FileFilter, boolean)	1072.json,1073.json	org.apache.commons.io.FileUtils.copyDirectory(java.io.File, java.io.File, boolean),org.apache.commons.io.FileUtils.copyDirectory(java.io.File, java.io.File, java.io.FileFilter)	true	4711
+687.json	org.apache.commons.io.IOUtils.resourceToByteArray(java.lang.String, java.lang.ClassLoader)	686.json	org.apache.commons.io.IOUtils.resourceToByteArray(java.lang.String)	true	418
+815.json	org.apache.commons.io.output.WriterOutputStream.write(byte[], int, int)	816.json,817.json	org.apache.commons.io.output.WriterOutputStream.write(byte[]),org.apache.commons.io.output.WriterOutputStream.write(int)	true	3327
+429.json	org.apache.commons.io.input.XmlStreamReader.calculateHttpEncoding(java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean)	427.json,426.json	org.apache.commons.io.input.XmlStreamReader.doLenientDetection(java.lang.String, org.apache.commons.io.input.XmlStreamReaderException),org.apache.commons.io.input.XmlStreamReader.doHttpStream(org.apache.commons.io.input.BOMInputStream, org.apache.commons.io.input.BOMInputStream, java.lang.String, boolean)	true	2660
+228.json	org.apache.commons.io.input.NullInputStream.reset()	noCall	noCall	true	4116
+775.json	org.apache.commons.io.DirectoryWalker.handleDirectoryEnd(java.io.File, int, java.util.Collection<T>)	765.json	org.apache.commons.io.DirectoryWalker.walk(java.io.File, int, java.util.Collection<T>)	true	4193
+1168.json	org.apache.commons.io.FileUtils.writeLines(java.io.File, java.util.Collection<?>, java.lang.String, boolean)	noCall	noCall	true	4034
+333.json	org.apache.commons.io.input.NullReader.doEndOfFile()	328.json,330.json,326.json	org.apache.commons.io.input.NullReader.read(char[], int, int),org.apache.commons.io.input.NullReader.skip(long),org.apache.commons.io.input.NullReader.read()	true	4116
+874.json	org.apache.commons.io.output.ByteArrayOutputStream.needNewBuffer(int)	877.json,876.json,880.json,875.json	org.apache.commons.io.output.ByteArrayOutputStream.write(java.io.InputStream),org.apache.commons.io.output.ByteArrayOutputStream.write(int),org.apache.commons.io.output.ByteArrayOutputStream.reset(),org.apache.commons.io.output.ByteArrayOutputStream.write(byte[], int, int)	true	5399
+1093.json	org.apache.commons.io.FileUtils.doCopyFile(java.io.File, java.io.File, boolean)	1092.json,1077.json	org.apache.commons.io.FileUtils.doCopyDirectory(java.io.File, java.io.File, java.io.FileFilter, boolean, java.util.List<java.lang.String>),org.apache.commons.io.FileUtils.copyFile(java.io.File, java.io.File, boolean)	true	5669
+419.json	org.apache.commons.io.input.UnixLineEndingInputStream.close()	noCall	noCall	true	1175
+1145.json	org.apache.commons.io.FileUtils.sizeOfDirectoryBig0(java.io.File)	1144.json,1140.json,1141.json	org.apache.commons.io.FileUtils.sizeOfDirectoryAsBigInteger(java.io.File),org.apache.commons.io.FileUtils.sizeOfAsBigInteger(java.io.File),org.apache.commons.io.FileUtils.sizeOfBig0(java.io.File)	true	1649
+17.json	org.apache.commons.io.filefilter.FileFilterUtils.fileFileFilter()	noCall	noCall	true	4193
+595.json	org.apache.commons.io.monitor.FileEntry.setName(java.lang.String)	noCall	noCall	true	3570
+291.json	org.apache.commons.io.input.BoundedInputStream.read()	noCall	noCall	true	2665
+322.json	org.apache.commons.io.input.NullReader.getSize()	noCall	noCall	true	4116
+561.json	org.apache.commons.io.CopyUtils.copy(java.lang.String, java.io.OutputStream, java.lang.String)	noCall	noCall	true	1733
+574.json	org.apache.commons.io.monitor.FileAlterationObserver.removeListener(org.apache.commons.io.monitor.FileAlterationListener)	noCall	noCall	true	3570
+304.json	org.apache.commons.io.input.XmlStreamReaderException.getXmlGuessEncoding()	427.json	org.apache.commons.io.input.XmlStreamReader.doLenientDetection(java.lang.String, org.apache.commons.io.input.XmlStreamReaderException)	true	2660
+771.json	org.apache.commons.io.DirectoryWalker.handleDirectoryStart(java.io.File, int, java.util.Collection<T>)	765.json	org.apache.commons.io.DirectoryWalker.walk(java.io.File, int, java.util.Collection<T>)	true	4193
+439.json	org.apache.commons.io.input.BOMInputStream.readFirstBytes()	447.json,442.json,443.json	org.apache.commons.io.input.BOMInputStream.skip(long),org.apache.commons.io.input.BOMInputStream.read(),org.apache.commons.io.input.BOMInputStream.read(byte[], int, int)	true	3333
+184.json	org.apache.commons.io.FilenameUtils.equals(java.lang.String, java.lang.String, boolean, org.apache.commons.io.IOCase)	182.json,180.json,183.json,181.json	org.apache.commons.io.FilenameUtils.equalsNormalized(java.lang.String, java.lang.String),org.apache.commons.io.FilenameUtils.equals(java.lang.String, java.lang.String),org.apache.commons.io.FilenameUtils.equalsNormalizedOnSystem(java.lang.String, java.lang.String),org.apache.commons.io.FilenameUtils.equalsOnSystem(java.lang.String, java.lang.String)	true	4789
+716.json	org.apache.commons.io.IOUtils.toInputStream(java.lang.CharSequence)	noCall	noCall	true	3630
+471.json	org.apache.commons.io.input.TailerListenerAdapter.handle(java.lang.String)	noCall	noCall	true	2664
+832.json	org.apache.commons.io.output.ProxyOutputStream.afterWrite(int)	828.json,826.json,827.json	org.apache.commons.io.output.ProxyOutputStream.write(byte[], int, int),org.apache.commons.io.output.ProxyOutputStream.write(int),org.apache.commons.io.output.ProxyOutputStream.write(byte[])	true	3072
+90.json	org.apache.commons.io.filefilter.AbstractFileFilter.accept(java.io.File, java.lang.String)	89.json,93.json	org.apache.commons.io.filefilter.AbstractFileFilter.accept(java.io.File),org.apache.commons.io.filefilter.DelegateFileFilter.accept(java.io.File, java.lang.String)	true	5650
+1101.json	org.apache.commons.io.FileUtils.getTempDirectoryPath()	1100.json	org.apache.commons.io.FileUtils.getTempDirectory()	true	2720
+56.json	org.apache.commons.io.filefilter.OrFileFilter.removeFileFilter(org.apache.commons.io.filefilter.IOFileFilter)	noCall	noCall	true	4830
+741.json	org.apache.commons.io.IOUtils.write(char[], java.io.Writer)	noCall	noCall	true	4902
+1131.json	org.apache.commons.io.FileUtils.readFileToString(java.io.File, java.nio.charset.Charset)	1130.json,1132.json	org.apache.commons.io.FileUtils.readFileToString(java.io.File),org.apache.commons.io.FileUtils.readFileToString(java.io.File, java.lang.String)	true	5167
+533.json	org.apache.commons.io.comparator.LastModifiedFileComparator.compare(java.io.File, java.io.File)	noCall	noCall	true	3662
+891.json	org.apache.commons.io.output.BrokenOutputStream.close()	noCall	noCall	true	3264
+182.json	org.apache.commons.io.FilenameUtils.equalsNormalized(java.lang.String, java.lang.String)	noCall	noCall	true	4789
+644.json	org.apache.commons.io.IOUtils.contentEqualsIgnoreEOL(java.io.Reader, java.io.Reader)	1069.json	org.apache.commons.io.FileUtils.contentEqualsIgnoreEOL(java.io.File, java.io.File, java.lang.String)	true	2257
+58.json	org.apache.commons.io.filefilter.OrFileFilter.accept(java.io.File)	noCall	noCall	true	5650
+1154.json	org.apache.commons.io.FileUtils.waitFor(java.io.File, int)	noCall	noCall	true	5833
+432.json	org.apache.commons.io.input.XmlStreamReader.getXmlProlog(java.io.InputStream, java.lang.String)	425.json,426.json	org.apache.commons.io.input.XmlStreamReader.doRawStream(org.apache.commons.io.input.BOMInputStream, org.apache.commons.io.input.BOMInputStream, boolean),org.apache.commons.io.input.XmlStreamReader.doHttpStream(org.apache.commons.io.input.BOMInputStream, org.apache.commons.io.input.BOMInputStream, java.lang.String, boolean)	true	2660
+1070.json	org.apache.commons.io.FileUtils.convertFileCollectionToFileArray(java.util.Collection<java.io.File>)	noCall	noCall	true	5167
+418.json	org.apache.commons.io.input.UnixLineEndingInputStream.eofGame(boolean)	417.json	org.apache.commons.io.input.UnixLineEndingInputStream.read()	true	1175
+1116.json	org.apache.commons.io.FileUtils.lineIterator(java.io.File)	noCall	noCall	true	4034
+931.json	org.apache.commons.io.output.TeeOutputStream.write(byte[], int, int)	noCall	noCall	true	5805
+118.json	org.apache.commons.io.EndianUtils.readSwappedFloat(byte[], int)	noCall	noCall	true	5287
+800.json	org.apache.commons.io.output.ChunkedOutputStream.write(byte[], int, int)	noCall	noCall	true	1686
+330.json	org.apache.commons.io.input.NullReader.skip(long)	noCall	noCall	true	4116
+290.json	org.apache.commons.io.input.MessageDigestCalculatingInputStream.getMessageDigest()	noCall	noCall	true	563
+294.json	org.apache.commons.io.input.BoundedInputStream.skip(long)	noCall	noCall	true	2665
+26.json	org.apache.commons.io.filefilter.FileFilterUtils.asFileFilter(java.io.FileFilter)	noCall	noCall	true	5230
+683.json	org.apache.commons.io.IOUtils.readLines(java.io.InputStream, java.nio.charset.Charset)	682.json,1134.json,684.json	org.apache.commons.io.IOUtils.readLines(java.io.InputStream),org.apache.commons.io.FileUtils.readLines(java.io.File, java.nio.charset.Charset),org.apache.commons.io.IOUtils.readLines(java.io.InputStream, java.lang.String)	true	4534
+422.json	org.apache.commons.io.input.XmlStreamReader.getEncoding()	noCall	noCall	true	2660
+119.json	org.apache.commons.io.EndianUtils.writeSwappedDouble(byte[], int, double)	noCall	noCall	true	5287
+1052.json	org.apache.commons.io.IOCase.checkCompareTo(java.lang.String, java.lang.String)	528.json,518.json,520.json	org.apache.commons.io.comparator.ExtensionFileComparator.compare(java.io.File, java.io.File),org.apache.commons.io.comparator.NameFileComparator.compare(java.io.File, java.io.File),org.apache.commons.io.comparator.PathFileComparator.compare(java.io.File, java.io.File)	true	3692
+485.json	org.apache.commons.io.FileSystemUtils.freeSpaceKb(java.lang.String)	noCall	noCall	true	4334
+681.json	org.apache.commons.io.IOUtils.readFully(java.io.Reader, char[], int, int)	680.json	org.apache.commons.io.IOUtils.readFully(java.io.Reader, char[])	true	2252
+227.json	org.apache.commons.io.input.NullInputStream.read(byte[], int, int)	226.json	org.apache.commons.io.input.NullInputStream.read(byte[])	true	4116
+331.json	org.apache.commons.io.input.NullReader.processChar()	326.json	org.apache.commons.io.input.NullReader.read()	true	4116
+136.json	org.apache.commons.io.ByteOrderMark.get(int)	441.json,138.json	org.apache.commons.io.input.BOMInputStream.matches(org.apache.commons.io.ByteOrderMark),org.apache.commons.io.ByteOrderMark.equals(java.lang.Object)	true	2660
+855.json	org.apache.commons.io.output.StringBuilderWriter.toString()	725.json,727.json	org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset),org.apache.commons.io.IOUtils.toString(java.io.Reader)	true	3630
+756.json	org.apache.commons.io.IOUtils.writeLines(java.util.Collection<?>, java.lang.String, java.io.OutputStream, java.nio.charset.Charset)	757.json,755.json	org.apache.commons.io.IOUtils.writeLines(java.util.Collection<?>, java.lang.String, java.io.OutputStream, java.lang.String),org.apache.commons.io.IOUtils.writeLines(java.util.Collection<?>, java.lang.String, java.io.OutputStream)	true	2116
+20.json	org.apache.commons.io.filefilter.FileFilterUtils.and(org.apache.commons.io.filefilter.IOFileFilter...)	42.json,41.json,1136.json,1137.json	org.apache.commons.io.filefilter.FileFilterUtils.makeSVNAware(org.apache.commons.io.filefilter.IOFileFilter),org.apache.commons.io.filefilter.FileFilterUtils.makeCVSAware(org.apache.commons.io.filefilter.IOFileFilter),org.apache.commons.io.FileUtils.setUpEffectiveDirFilter(org.apache.commons.io.filefilter.IOFileFilter),org.apache.commons.io.FileUtils.setUpEffectiveFileFilter(org.apache.commons.io.filefilter.IOFileFilter)	true	2665
+877.json	org.apache.commons.io.output.ByteArrayOutputStream.write(java.io.InputStream)	883.json	org.apache.commons.io.output.ByteArrayOutputStream.toBufferedInputStream(java.io.InputStream, int)	true	3661
+1144.json	org.apache.commons.io.FileUtils.sizeOfDirectoryAsBigInteger(java.io.File)	noCall	noCall	true	2099
+1158.json	org.apache.commons.io.FileUtils.write(java.io.File, java.lang.CharSequence, java.nio.charset.Charset, boolean)	1156.json,1160.json,1155.json,1157.json	org.apache.commons.io.FileUtils.write(java.io.File, java.lang.CharSequence, boolean),org.apache.commons.io.FileUtils.write(java.io.File, java.lang.CharSequence, java.lang.String, boolean),org.apache.commons.io.FileUtils.write(java.io.File, java.lang.CharSequence),org.apache.commons.io.FileUtils.write(java.io.File, java.lang.CharSequence, java.nio.charset.Charset)	true	2116
+567.json	org.apache.commons.io.monitor.FileAlterationListenerAdaptor.onFileCreate(java.io.File)	noCall	noCall	true	3570
+636.json	org.apache.commons.io.IOUtils.closeQuietly(java.io.OutputStream)	494.json	org.apache.commons.io.FileSystemUtils.performCommand(java.lang.String[], int, long)	true	5287
+721.json	org.apache.commons.io.IOUtils.toInputStream(java.lang.String, java.lang.String)	noCall	noCall	true	4666
+568.json	org.apache.commons.io.monitor.FileAlterationListenerAdaptor.onFileChange(java.io.File)	noCall	noCall	true	3570
+353.json	org.apache.commons.io.input.ObservableInputStream.read(byte[], int, int)	noCall	noCall	true	563
+872.json	org.apache.commons.io.output.CountingOutputStream.getByteCount()	870.json	org.apache.commons.io.output.CountingOutputStream.getCount()	true	4116
+698.json	org.apache.commons.io.IOUtils.toBufferedInputStream(java.io.InputStream)	noCall	noCall	true	3328
+235.json	org.apache.commons.io.input.AutoCloseInputStream.finalize()	noCall	noCall	true	3664
+1073.json	org.apache.commons.io.FileUtils.copyDirectory(java.io.File, java.io.File, java.io.FileFilter)	noCall	noCall	true	3661
+916.json	org.apache.commons.io.output.DemuxOutputStream.bindStream(java.io.OutputStream)	noCall	noCall	true	5669
+484.json	org.apache.commons.io.FileSystemUtils.freeSpace(java.lang.String)	noCall	noCall	true	4711
+18.json	org.apache.commons.io.filefilter.FileFilterUtils.andFileFilter(org.apache.commons.io.filefilter.IOFileFilter, org.apache.commons.io.filefilter.IOFileFilter)	noCall	noCall	true	5517
+944.json	org.apache.commons.io.output.ProxyWriter.close()	noCall	noCall	true	5131
+16.json	org.apache.commons.io.filefilter.FileFilterUtils.directoryFileFilter()	noCall	noCall	true	5357
+674.json	org.apache.commons.io.IOUtils.read(java.io.Reader, char[])	noCall	noCall	true	2252
+42.json	org.apache.commons.io.filefilter.FileFilterUtils.makeSVNAware(org.apache.commons.io.filefilter.IOFileFilter)	noCall	noCall	true	4587
+1053.json	org.apache.commons.io.IOCase.checkEquals(java.lang.String, java.lang.String)	184.json,160.json,97.json,96.json	org.apache.commons.io.FilenameUtils.equals(java.lang.String, java.lang.String, boolean, org.apache.commons.io.IOCase),org.apache.commons.io.FilenameUtils.directoryContains(java.lang.String, java.lang.String),org.apache.commons.io.filefilter.NameFileFilter.accept(java.io.File, java.lang.String),org.apache.commons.io.filefilter.NameFileFilter.accept(java.io.File)	true	4221
+469.json	org.apache.commons.io.input.TailerListenerAdapter.fileNotFound()	noCall	noCall	true	2664
+341.json	org.apache.commons.io.input.BrokenInputStream.reset()	noCall	noCall	true	3264
+1075.json	org.apache.commons.io.FileUtils.copyDirectoryToDirectory(java.io.File, java.io.File)	1082.json	org.apache.commons.io.FileUtils.copyToDirectory(java.io.File, java.io.File)	true	4383
+1058.json	org.apache.commons.io.IOCase.toString()	noCall	noCall	true	4221
+458.json	org.apache.commons.io.input.ProxyInputStream.reset()	noCall	noCall	true	5517
+930.json	org.apache.commons.io.output.TeeOutputStream.write(byte[])	noCall	noCall	true	5517
+171.json	org.apache.commons.io.FilenameUtils.getFullPath(java.lang.String)	noCall	noCall	true	4801
+662.json	org.apache.commons.io.IOUtils.copyLarge(java.io.Reader, java.io.Writer, long, long)	noCall	noCall	true	2130
+368.json	org.apache.commons.io.input.TaggedInputStream.throwIfCauseOf(java.lang.Throwable)	noCall	noCall	true	3264
+109.json	org.apache.commons.io.EndianUtils.writeSwappedShort(byte[], int, short)	noCall	noCall	true	5287
+621.json	org.apache.commons.io.IOUtils.buffer(java.io.InputStream)	noCall	noCall	true	1730
+646.json	org.apache.commons.io.IOUtils.copy(java.io.InputStream, java.io.OutputStream, int)	656.json	org.apache.commons.io.IOUtils.copyLarge(java.io.InputStream, java.io.OutputStream)	true	1907
+357.json	org.apache.commons.io.input.ObservableInputStream.noteError(java.io.IOException)	352.json,360.json,351.json,353.json	org.apache.commons.io.input.ObservableInputStream.read(byte[]),org.apache.commons.io.input.ObservableInputStream.close(),org.apache.commons.io.input.ObservableInputStream.read(),org.apache.commons.io.input.ObservableInputStream.read(byte[], int, int)	true	563
+778.json	org.apache.commons.io.DirectoryWalker.CancelException.getDepth()	noCall	noCall	true	4112
+1192.json	org.apache.commons.io.FileSystem.toLegalFileName(java.lang.String, char)	noCall	noCall	true	60
+2.json	org.apache.commons.io.filefilter.WildcardFilter.accept(java.io.File)	noCall	noCall	true	4863
+327.json	org.apache.commons.io.input.NullReader.read(char[])	noCall	noCall	true	4116
+580.json	org.apache.commons.io.monitor.FileAlterationObserver.createFileEntry(org.apache.commons.io.monitor.FileEntry, java.io.File)	581.json,579.json	org.apache.commons.io.monitor.FileAlterationObserver.doListFiles(java.io.File, org.apache.commons.io.monitor.FileEntry),org.apache.commons.io.monitor.FileAlterationObserver.checkAndNotify(org.apache.commons.io.monitor.FileEntry, org.apache.commons.io.monitor.FileEntry[], java.io.File[])	true	3570
+821.json	org.apache.commons.io.output.WriterOutputStream.flushOutput()	820.json,815.json,819.json,818.json	org.apache.commons.io.output.WriterOutputStream.processInput(boolean),org.apache.commons.io.output.WriterOutputStream.write(byte[], int, int),org.apache.commons.io.output.WriterOutputStream.close(),org.apache.commons.io.output.WriterOutputStream.flush()	true	3327
+593.json	org.apache.commons.io.monitor.FileEntry.getFile()	571.json,582.json,578.json,579.json,584.json,576.json	org.apache.commons.io.monitor.FileAlterationObserver.getDirectory(),org.apache.commons.io.monitor.FileAlterationObserver.doCreate(org.apache.commons.io.monitor.FileEntry),org.apache.commons.io.monitor.FileAlterationObserver.checkAndNotify(),org.apache.commons.io.monitor.FileAlterationObserver.checkAndNotify(org.apache.commons.io.monitor.FileEntry, org.apache.commons.io.monitor.FileEntry[], java.io.File[]),org.apache.commons.io.monitor.FileAlterationObserver.doDelete(org.apache.commons.io.monitor.FileEntry),org.apache.commons.io.monitor.FileAlterationObserver.initialize()	true	3570
+828.json	org.apache.commons.io.output.ProxyOutputStream.write(byte[], int, int)	931.json	org.apache.commons.io.output.TeeOutputStream.write(byte[], int, int)	true	5517
+203.json	org.apache.commons.io.Charsets.requiredCharsets()	noCall	noCall	true	1871
+864.json	org.apache.commons.io.output.LockableFileWriter.write(char[])	noCall	noCall	true	5833
+833.json	org.apache.commons.io.output.ProxyOutputStream.handleIOException(java.io.IOException)	828.json,829.json,826.json,830.json,827.json	org.apache.commons.io.output.ProxyOutputStream.write(byte[], int, int),org.apache.commons.io.output.ProxyOutputStream.flush(),org.apache.commons.io.output.ProxyOutputStream.write(int),org.apache.commons.io.output.ProxyOutputStream.close(),org.apache.commons.io.output.ProxyOutputStream.write(byte[])	true	3257
+1165.json	org.apache.commons.io.FileUtils.writeLines(java.io.File, java.util.Collection<?>)	noCall	noCall	true	4034
+757.json	org.apache.commons.io.IOUtils.writeLines(java.util.Collection<?>, java.lang.String, java.io.OutputStream, java.lang.String)	noCall	noCall	true	4513
+158.json	org.apache.commons.io.FilenameUtils.doNormalize(java.lang.String, char, boolean)	156.json,154.json,157.json,155.json	org.apache.commons.io.FilenameUtils.normalizeNoEndSeparator(java.lang.String),org.apache.commons.io.FilenameUtils.normalize(java.lang.String),org.apache.commons.io.FilenameUtils.normalizeNoEndSeparator(java.lang.String, boolean),org.apache.commons.io.FilenameUtils.normalize(java.lang.String, boolean)	true	5669
+836.json	org.apache.commons.io.output.ThresholdingOutputStream.write(byte[], int, int)	noCall	noCall	true	5097
+708.json	org.apache.commons.io.IOUtils.toByteArray(java.lang.String)	noCall	noCall	true	5287
+1088.json	org.apache.commons.io.FileUtils.deleteDirectory(java.io.File)	1094.json,1121.json	org.apache.commons.io.FileUtils.forceDelete(java.io.File),org.apache.commons.io.FileUtils.moveDirectory(java.io.File, java.io.File)	true	5669
+309.json	org.apache.commons.io.input.ProxyReader.read(char[])	noCall	noCall	true	5131
+572.json	org.apache.commons.io.monitor.FileAlterationObserver.getFileFilter()	noCall	noCall	true	2501
+571.json	org.apache.commons.io.monitor.FileAlterationObserver.getDirectory()	586.json	org.apache.commons.io.monitor.FileAlterationObserver.toString()	true	3570
+240.json	org.apache.commons.io.input.DemuxInputStream.read()	noCall	noCall	true	5669
+705.json	org.apache.commons.io.IOUtils.toByteArray(java.io.Reader)	noCall	noCall	true	5287
+444.json	org.apache.commons.io.input.BOMInputStream.read(byte[])	noCall	noCall	true	3333
+1190.json	org.apache.commons.io.FileSystem.isLegalFileName(java.lang.CharSequence)	noCall	noCall	true	59
+838.json	org.apache.commons.io.output.ThresholdingOutputStream.close()	925.json	org.apache.commons.io.output.DeferredFileOutputStream.close()	true	5097
+134.json	org.apache.commons.io.ByteOrderMark.getCharsetName()	438.json	org.apache.commons.io.input.BOMInputStream.getBOMCharsetName()	true	2660
+816.json	org.apache.commons.io.output.WriterOutputStream.write(byte[])	noCall	noCall	true	3327
+908.json	org.apache.commons.io.output.NullWriter.write(int)	noCall	noCall	true	4116
+818.json	org.apache.commons.io.output.WriterOutputStream.flush()	noCall	noCall	true	3327
+676.json	org.apache.commons.io.IOUtils.readFully(java.io.InputStream, byte[])	noCall	noCall	true	2252
+350.json	org.apache.commons.io.input.ObservableInputStream.removeAllObservers()	noCall	noCall	true	563
+805.json	org.apache.commons.io.output.AppendableOutputStream.write(int)	noCall	noCall	true	969
+945.json	org.apache.commons.io.output.ProxyWriter.beforeWrite(int)	938.json,935.json,937.json,942.json,941.json,940.json,939.json,936.json	org.apache.commons.io.output.ProxyWriter.write(int),org.apache.commons.io.output.ProxyWriter.append(char),org.apache.commons.io.output.ProxyWriter.append(java.lang.CharSequence),org.apache.commons.io.output.ProxyWriter.write(java.lang.String, int, int),org.apache.commons.io.output.ProxyWriter.write(java.lang.String),org.apache.commons.io.output.ProxyWriter.write(char[], int, int),org.apache.commons.io.output.ProxyWriter.write(char[]),org.apache.commons.io.output.ProxyWriter.append(java.lang.CharSequence, int, int)	true	2832
+641.json	org.apache.commons.io.IOUtils.closeQuietly(java.io.Writer)	noCall	noCall	true	5287
+817.json	org.apache.commons.io.output.WriterOutputStream.write(int)	noCall	noCall	true	3327
+108.json	org.apache.commons.io.EndianUtils.swapDouble(double)	noCall	noCall	true	5287
+37.json	org.apache.commons.io.filefilter.FileFilterUtils.magicNumberFileFilter(java.lang.String)	noCall	noCall	true	2872
+383.json	org.apache.commons.io.input.BoundedReader.reset()	noCall	noCall	true	1175
+1054.json	org.apache.commons.io.IOCase.checkStartsWith(java.lang.String, java.lang.String)	160.json,62.json,63.json	org.apache.commons.io.FilenameUtils.directoryContains(java.lang.String, java.lang.String),org.apache.commons.io.filefilter.PrefixFileFilter.accept(java.io.File),org.apache.commons.io.filefilter.PrefixFileFilter.accept(java.io.File, java.lang.String)	true	4221
+1076.json	org.apache.commons.io.FileUtils.copyFile(java.io.File, java.io.File)	1123.json	org.apache.commons.io.FileUtils.moveFile(java.io.File, java.io.File)	true	5669
+365.json	org.apache.commons.io.input.TeeInputStream.read(byte[], int, int)	noCall	noCall	true	3746
+156.json	org.apache.commons.io.FilenameUtils.normalizeNoEndSeparator(java.lang.String)	noCall	noCall	true	4513
+1110.json	org.apache.commons.io.FileUtils.isFileOlder(java.io.File, java.io.File)	noCall	noCall	true	4192
+1065.json	org.apache.commons.io.FileUtils.checksumCRC32(java.io.File)	noCall	noCall	true	4156
+1123.json	org.apache.commons.io.FileUtils.moveFile(java.io.File, java.io.File)	1124.json	org.apache.commons.io.FileUtils.moveFileToDirectory(java.io.File, java.io.File, boolean)	true	3660
+653.json	org.apache.commons.io.IOUtils.copy(java.io.Reader, java.io.OutputStream, java.nio.charset.Charset)	652.json,706.json,654.json	org.apache.commons.io.IOUtils.copy(java.io.Reader, java.io.OutputStream),org.apache.commons.io.IOUtils.toByteArray(java.io.Reader, java.nio.charset.Charset),org.apache.commons.io.IOUtils.copy(java.io.Reader, java.io.OutputStream, java.lang.String)	true	2116
+340.json	org.apache.commons.io.input.BrokenInputStream.skip(long)	noCall	noCall	true	3264
+588.json	org.apache.commons.io.monitor.FileEntry.newChildInstance(java.io.File)	580.json	org.apache.commons.io.monitor.FileAlterationObserver.createFileEntry(org.apache.commons.io.monitor.FileEntry, java.io.File)	true	3570
+50.json	org.apache.commons.io.filefilter.RegexFileFilter.accept(java.io.File, java.lang.String)	noCall	noCall	true	3747
+218.json	org.apache.commons.io.input.ReaderInputStream.close()	noCall	noCall	true	3327
+435.json	org.apache.commons.io.input.BOMInputStream.hasBOM()	noCall	noCall	true	2660
+468.json	org.apache.commons.io.input.TailerListenerAdapter.init(org.apache.commons.io.input.Tailer)	noCall	noCall	true	2664
+307.json	org.apache.commons.io.input.XmlStreamReaderException.getContentTypeEncoding()	427.json	org.apache.commons.io.input.XmlStreamReader.doLenientDetection(java.lang.String, org.apache.commons.io.input.XmlStreamReaderException)	true	2660
+154.json	org.apache.commons.io.FilenameUtils.normalize(java.lang.String)	159.json,184.json	org.apache.commons.io.FilenameUtils.concat(java.lang.String, java.lang.String),org.apache.commons.io.FilenameUtils.equals(java.lang.String, java.lang.String, boolean, org.apache.commons.io.IOCase)	true	5669
+849.json	org.apache.commons.io.output.StringBuilderWriter.append(java.lang.CharSequence, int, int)	noCall	noCall	true	3630
+52.json	org.apache.commons.io.filefilter.WildcardFileFilter.accept(java.io.File)	noCall	noCall	true	4221
+310.json	org.apache.commons.io.input.ProxyReader.read(char[], int, int)	noCall	noCall	true	5131
+148.json	org.apache.commons.io.FileCleaningTracker.exitWhenFinished()	201.json	org.apache.commons.io.FileCleaner.exitWhenFinished()	true	3960
+482.json	org.apache.commons.io.HexDump.dump(java.lang.StringBuilder, long)	481.json	org.apache.commons.io.HexDump.dump(byte[], long, java.io.OutputStream, int)	true	5806
+786.json	org.apache.commons.io.output.ClosedOutputStream.flush()	noCall	noCall	true	93
+320.json	org.apache.commons.io.input.ProxyReader.handleIOException(java.io.IOException)	312.json,309.json,313.json,308.json,316.json,311.json,314.json,315.json,310.json	org.apache.commons.io.input.ProxyReader.skip(long),org.apache.commons.io.input.ProxyReader.read(char[]),org.apache.commons.io.input.ProxyReader.ready(),org.apache.commons.io.input.ProxyReader.read(),org.apache.commons.io.input.ProxyReader.reset(),org.apache.commons.io.input.ProxyReader.read(java.nio.CharBuffer),org.apache.commons.io.input.ProxyReader.close(),org.apache.commons.io.input.ProxyReader.mark(int),org.apache.commons.io.input.ProxyReader.read(char[], int, int)	true	3257
+551.json	org.apache.commons.io.CopyUtils.copy(byte[], java.io.OutputStream)	noCall	noCall	true	5260
+434.json	org.apache.commons.io.input.XmlStreamReader.isTextXml(java.lang.String)	429.json	org.apache.commons.io.input.XmlStreamReader.calculateHttpEncoding(java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean)	true	2660
+223.json	org.apache.commons.io.input.NullInputStream.mark(int)	noCall	noCall	true	4116
+343.json	org.apache.commons.io.input.ObservableInputStream.Observer.data(int)	356.json	org.apache.commons.io.input.ObservableInputStream.noteDataByte(int)	true	563
+933.json	org.apache.commons.io.output.TeeOutputStream.flush()	noCall	noCall	true	5805
+204.json	org.apache.commons.io.Charsets.toCharset(java.nio.charset.Charset)	648.json,747.json,729.json,739.json,720.json,1134.json,1131.json,861.json,756.json,683.json,668.json,653.json,736.json	org.apache.commons.io.IOUtils.copy(java.io.InputStream, java.io.Writer, java.nio.charset.Charset),org.apache.commons.io.IOUtils.write(java.lang.String, java.io.OutputStream, java.nio.charset.Charset),org.apache.commons.io.IOUtils.toString(java.net.URI, java.nio.charset.Charset),org.apache.commons.io.IOUtils.write(char[], java.io.OutputStream, java.nio.charset.Charset),org.apache.commons.io.IOUtils.toInputStream(java.lang.String, java.nio.charset.Charset),org.apache.commons.io.FileUtils.readLines(java.io.File, java.nio.charset.Charset),org.apache.commons.io.FileUtils.readFileToString(java.io.File, java.nio.charset.Charset),org.apache.commons.io.output.LockableFileWriter.initWriter(java.io.File, java.nio.charset.Charset, boolean),org.apache.commons.io.IOUtils.writeLines(java.util.Collection<?>, java.lang.String, java.io.OutputStream, java.nio.charset.Charset),org.apache.commons.io.IOUtils.readLines(java.io.InputStream, java.nio.charset.Charset),org.apache.commons.io.IOUtils.lineIterator(java.io.InputStream, java.nio.charset.Charset),org.apache.commons.io.IOUtils.copy(java.io.Reader, java.io.OutputStream, java.nio.charset.Charset),org.apache.commons.io.IOUtils.write(byte[], java.io.Writer, java.nio.charset.Charset)	true	2116
+824.json	org.apache.commons.io.output.TaggedOutputStream.throwIfCauseOf(java.lang.Exception)	noCall	noCall	true	3264
+912.json	org.apache.commons.io.output.NullWriter.write(java.lang.String, int, int)	noCall	noCall	true	4116
+1120.json	org.apache.commons.io.FileUtils.listFilesAndDirs(java.io.File, org.apache.commons.io.filefilter.IOFileFilter, org.apache.commons.io.filefilter.IOFileFilter)	1115.json	org.apache.commons.io.FileUtils.iterateFilesAndDirs(java.io.File, org.apache.commons.io.filefilter.IOFileFilter, org.apache.commons.io.filefilter.IOFileFilter)	true	2145
+734.json	org.apache.commons.io.IOUtils.write(byte[], java.io.OutputStream)	noCall	noCall	true	4902
+825.json	org.apache.commons.io.output.TaggedOutputStream.handleIOException(java.io.IOException)	noCall	noCall	true	3257
+860.json	org.apache.commons.io.output.LockableFileWriter.createLock()	noCall	noCall	true	5833
+273.json	org.apache.commons.io.input.Tailer.create(java.io.File, org.apache.commons.io.input.TailerListener, long, boolean, boolean)	noCall	noCall	true	2044
+730.json	org.apache.commons.io.IOUtils.toString(java.net.URI, java.lang.String)	noCall	noCall	true	2469
+528.json	org.apache.commons.io.comparator.ExtensionFileComparator.compare(java.io.File, java.io.File)	noCall	noCall	true	3662
+624.json	org.apache.commons.io.IOUtils.buffer(java.io.OutputStream, int)	noCall	noCall	true	1543
+61.json	org.apache.commons.io.filefilter.DirectoryFileFilter.accept(java.io.File)	noCall	noCall	true	5650
+474.json	org.apache.commons.io.input.CloseShieldInputStream.close()	noCall	noCall	true	3747
+423.json	org.apache.commons.io.input.XmlStreamReader.read(char[], int, int)	noCall	noCall	true	2660
+737.json	org.apache.commons.io.IOUtils.write(byte[], java.io.Writer, java.lang.String)	noCall	noCall	true	4902
+749.json	org.apache.commons.io.IOUtils.write(java.lang.String, java.io.Writer)	745.json	org.apache.commons.io.IOUtils.write(java.lang.CharSequence, java.io.Writer)	true	4902
+488.json	org.apache.commons.io.FileSystemUtils.freeSpaceKb(long)	487.json	org.apache.commons.io.FileSystemUtils.freeSpaceKb()	true	2872
+562.json	org.apache.commons.io.CopyUtils.copy(java.lang.String, java.io.Writer)	noCall	noCall	true	5260
+699.json	org.apache.commons.io.IOUtils.toBufferedInputStream(java.io.InputStream, int)	noCall	noCall	true	1543
+943.json	org.apache.commons.io.output.ProxyWriter.flush()	noCall	noCall	true	5131
+23.json	org.apache.commons.io.filefilter.FileFilterUtils.notFileFilter(org.apache.commons.io.filefilter.IOFileFilter)	1137.json	org.apache.commons.io.FileUtils.setUpEffectiveFileFilter(org.apache.commons.io.filefilter.IOFileFilter)	true	5517
+584.json	org.apache.commons.io.monitor.FileAlterationObserver.doDelete(org.apache.commons.io.monitor.FileEntry)	579.json	org.apache.commons.io.monitor.FileAlterationObserver.checkAndNotify(org.apache.commons.io.monitor.FileEntry, org.apache.commons.io.monitor.FileEntry[], java.io.File[])	true	3570
+82.json	org.apache.commons.io.filefilter.AndFileFilter.toString()	noCall	noCall	true	3895
+35.json	org.apache.commons.io.filefilter.FileFilterUtils.sizeFileFilter(long, boolean)	noCall	noCall	true	4396
+523.json	org.apache.commons.io.comparator.ReverseComparator.toString()	noCall	noCall	true	3333
+159.json	org.apache.commons.io.FilenameUtils.concat(java.lang.String, java.lang.String)	noCall	noCall	true	4796
+711.json	org.apache.commons.io.IOUtils.toByteArray(java.net.URLConnection)	710.json	org.apache.commons.io.IOUtils.toByteArray(java.net.URL)	true	2099
+555.json	org.apache.commons.io.CopyUtils.copy(java.io.Reader, java.io.Writer)	557.json,556.json,560.json,558.json,561.json,559.json	org.apache.commons.io.CopyUtils.copy(java.io.InputStream, java.io.Writer, java.lang.String),org.apache.commons.io.CopyUtils.copy(java.io.InputStream, java.io.Writer),org.apache.commons.io.CopyUtils.copy(java.lang.String, java.io.OutputStream),org.apache.commons.io.CopyUtils.copy(java.io.Reader, java.io.OutputStream),org.apache.commons.io.CopyUtils.copy(java.lang.String, java.io.OutputStream, java.lang.String),org.apache.commons.io.CopyUtils.copy(java.io.Reader, java.io.OutputStream, java.lang.String)	true	5260
+197.json	org.apache.commons.io.FileCleaner.track(java.io.File, java.lang.Object, org.apache.commons.io.FileDeleteStrategy)	noCall	noCall	true	4154
+1170.json	org.apache.commons.io.FileUtils.writeLines(java.io.File, java.lang.String, java.util.Collection<?>, boolean)	noCall	noCall	true	4491
+552.json	org.apache.commons.io.CopyUtils.copy(byte[], java.io.Writer)	noCall	noCall	true	5260
+1107.json	org.apache.commons.io.FileUtils.isFileNewer(java.io.File, java.io.File)	noCall	noCall	true	5260
+626.json	org.apache.commons.io.IOUtils.buffer(java.io.Reader, int)	noCall	noCall	true	1543
+372.json	org.apache.commons.io.input.CountingInputStream.getCount()	noCall	noCall	true	5567
+553.json	org.apache.commons.io.CopyUtils.copy(byte[], java.io.Writer, java.lang.String)	noCall	noCall	true	5260
+732.json	org.apache.commons.io.IOUtils.toString(java.net.URL, java.nio.charset.Charset)	689.json,729.json,733.json,731.json	org.apache.commons.io.IOUtils.resourceToString(java.lang.String, java.nio.charset.Charset, java.lang.ClassLoader),org.apache.commons.io.IOUtils.toString(java.net.URI, java.nio.charset.Charset),org.apache.commons.io.IOUtils.toString(java.net.URL, java.lang.String),org.apache.commons.io.IOUtils.toString(java.net.URL)	true	2469
+111.json	org.apache.commons.io.EndianUtils.readSwappedUnsignedShort(byte[], int)	noCall	noCall	true	5287
+690.json	org.apache.commons.io.IOUtils.resourceToURL(java.lang.String)	noCall	noCall	true	418
+531.json	org.apache.commons.io.comparator.CompositeFileComparator.toString()	noCall	noCall	true	3333
+298.json	org.apache.commons.io.input.BoundedInputStream.reset()	noCall	noCall	true	2665
+63.json	org.apache.commons.io.filefilter.PrefixFileFilter.accept(java.io.File, java.lang.String)	noCall	noCall	true	5650
+420.json	org.apache.commons.io.input.UnixLineEndingInputStream.mark(int)	noCall	noCall	true	1175
+314.json	org.apache.commons.io.input.ProxyReader.close()	noCall	noCall	true	5131
+318.json	org.apache.commons.io.input.ProxyReader.beforeRead(int)	309.json,308.json,311.json,310.json	org.apache.commons.io.input.ProxyReader.read(char[]),org.apache.commons.io.input.ProxyReader.read(),org.apache.commons.io.input.ProxyReader.read(java.nio.CharBuffer),org.apache.commons.io.input.ProxyReader.read(char[], int, int)	true	2832
+229.json	org.apache.commons.io.input.NullInputStream.skip(long)	noCall	noCall	true	4116
+549.json	org.apache.commons.io.serialization.RegexpClassNameMatcher.matches(java.lang.String)	noCall	noCall	true	787
+635.json	org.apache.commons.io.IOUtils.closeQuietly(java.io.InputStream)	494.json	org.apache.commons.io.FileSystemUtils.performCommand(java.lang.String[], int, long)	true	5287
+678.json	org.apache.commons.io.IOUtils.readFully(java.io.InputStream, int)	noCall	noCall	true	1512
+748.json	org.apache.commons.io.IOUtils.write(java.lang.String, java.io.OutputStream, java.lang.String)	noCall	noCall	true	4902
+408.json	org.apache.commons.io.input.CharSequenceInputStream.read()	410.json	org.apache.commons.io.input.CharSequenceInputStream.skip(long)	true	2145
+161.json	org.apache.commons.io.FilenameUtils.separatorsToUnix(java.lang.String)	163.json	org.apache.commons.io.FilenameUtils.separatorsToSystem(java.lang.String)	true	4824
+835.json	org.apache.commons.io.output.ThresholdingOutputStream.write(byte[])	noCall	noCall	true	5097
+73.json	org.apache.commons.io.filefilter.SizeFileFilter.toString()	noCall	noCall	true	3895
+28.json	org.apache.commons.io.filefilter.FileFilterUtils.ageFileFilter(long)	noCall	noCall	true	4396
+565.json	org.apache.commons.io.monitor.FileAlterationListenerAdaptor.onDirectoryChange(java.io.File)	noCall	noCall	true	3570
+669.json	org.apache.commons.io.IOUtils.lineIterator(java.io.InputStream, java.lang.String)	1117.json	org.apache.commons.io.FileUtils.lineIterator(java.io.File, java.lang.String)	true	4392
+133.json	org.apache.commons.io.EndianUtils.read(java.io.InputStream)	122.json,125.json,123.json,126.json,128.json	org.apache.commons.io.EndianUtils.readSwappedShort(java.io.InputStream),org.apache.commons.io.EndianUtils.readSwappedInteger(java.io.InputStream),org.apache.commons.io.EndianUtils.readSwappedUnsignedShort(java.io.InputStream),org.apache.commons.io.EndianUtils.readSwappedUnsignedInteger(java.io.InputStream),org.apache.commons.io.EndianUtils.readSwappedLong(java.io.InputStream)	true	5287
+1150.json	org.apache.commons.io.FileUtils.toURLs(java.io.File[])	noCall	noCall	true	5669
+509.json	org.apache.commons.io.ThreadMonitor.start(long)	494.json	org.apache.commons.io.FileSystemUtils.performCommand(java.lang.String[], int, long)	true	2664
+1157.json	org.apache.commons.io.FileUtils.write(java.io.File, java.lang.CharSequence, java.nio.charset.Charset)	noCall	noCall	true	3630
+77.json	org.apache.commons.io.filefilter.AndFileFilter.getFileFilters()	noCall	noCall	true	4830
+500.json	org.apache.commons.io.LineIterator.hasNext()	503.json	org.apache.commons.io.LineIterator.nextLine()	true	4392
+881.json	org.apache.commons.io.output.ByteArrayOutputStream.writeTo(java.io.OutputStream)	921.json,926.json	org.apache.commons.io.output.DeferredFileOutputStream.thresholdReached(),org.apache.commons.io.output.DeferredFileOutputStream.writeTo(java.io.OutputStream)	true	5399
+224.json	org.apache.commons.io.input.NullInputStream.markSupported()	noCall	noCall	true	4116
+675.json	org.apache.commons.io.IOUtils.read(java.io.Reader, char[], int, int)	681.json,674.json	org.apache.commons.io.IOUtils.readFully(java.io.Reader, char[], int, int),org.apache.commons.io.IOUtils.read(java.io.Reader, char[])	true	2252
+140.json	org.apache.commons.io.ByteOrderMark.toString()	noCall	noCall	true	2660
+605.json	org.apache.commons.io.monitor.FileAlterationMonitor.setThreadFactory(java.util.concurrent.ThreadFactory)	noCall	noCall	true	2580
+117.json	org.apache.commons.io.EndianUtils.writeSwappedFloat(byte[], int, float)	noCall	noCall	true	5287
+559.json	org.apache.commons.io.CopyUtils.copy(java.io.Reader, java.io.OutputStream, java.lang.String)	noCall	noCall	true	1733
+1104.json	org.apache.commons.io.FileUtils.innerListFiles(java.util.Collection<java.io.File>, java.io.File, org.apache.commons.io.filefilter.IOFileFilter, boolean)	1118.json,1104.json,1120.json	org.apache.commons.io.FileUtils.listFiles(java.io.File, org.apache.commons.io.filefilter.IOFileFilter, org.apache.commons.io.filefilter.IOFileFilter),org.apache.commons.io.FileUtils.innerListFiles(java.util.Collection<java.io.File>, java.io.File, org.apache.commons.io.filefilter.IOFileFilter, boolean),org.apache.commons.io.FileUtils.listFilesAndDirs(java.io.File, org.apache.commons.io.filefilter.IOFileFilter, org.apache.commons.io.filefilter.IOFileFilter)	true	5167
+424.json	org.apache.commons.io.input.XmlStreamReader.close()	noCall	noCall	true	2660
+906.json	org.apache.commons.io.output.NullWriter.append(java.lang.CharSequence, int, int)	noCall	noCall	true	3630
+454.json	org.apache.commons.io.input.ProxyInputStream.skip(long)	370.json	org.apache.commons.io.input.CountingInputStream.skip(long)	true	5517
+263.json	org.apache.commons.io.input.ClassLoaderObjectInputStream.resolveProxyClass(java.lang.String[])	noCall	noCall	true	2501
+919.json	org.apache.commons.io.output.DemuxOutputStream.write(int)	noCall	noCall	true	5669
+407.json	org.apache.commons.io.input.CharSequenceInputStream.read(byte[], int, int)	409.json	org.apache.commons.io.input.CharSequenceInputStream.read(byte[])	true	2145
+744.json	org.apache.commons.io.IOUtils.write(java.lang.CharSequence, java.io.OutputStream, java.lang.String)	noCall	noCall	true	3630
+573.json	org.apache.commons.io.monitor.FileAlterationObserver.addListener(org.apache.commons.io.monitor.FileAlterationListener)	noCall	noCall	true	3570
+880.json	org.apache.commons.io.output.ByteArrayOutputStream.reset()	noCall	noCall	true	5399
+135.json	org.apache.commons.io.ByteOrderMark.length()	437.json,441.json,138.json,null	org.apache.commons.io.input.BOMInputStream.getBOM(),org.apache.commons.io.input.BOMInputStream.matches(org.apache.commons.io.ByteOrderMark),org.apache.commons.io.ByteOrderMark.equals(java.lang.Object),org.apache.commons.io.input.BOMInputStream.Anonymous-fd726a63-bdb0-41c5-b43a-9315871be940.compare(org.apache.commons.io.ByteOrderMark, org.apache.commons.io.ByteOrderMark)	true	2660
+882.json	org.apache.commons.io.output.ByteArrayOutputStream.toBufferedInputStream(java.io.InputStream)	698.json	org.apache.commons.io.IOUtils.toBufferedInputStream(java.io.InputStream)	true	3328
+437.json	org.apache.commons.io.input.BOMInputStream.getBOM()	435.json,438.json,439.json,436.json	org.apache.commons.io.input.BOMInputStream.hasBOM(),org.apache.commons.io.input.BOMInputStream.getBOMCharsetName(),org.apache.commons.io.input.BOMInputStream.readFirstBytes(),org.apache.commons.io.input.BOMInputStream.hasBOM(org.apache.commons.io.ByteOrderMark)	true	2660
+668.json	org.apache.commons.io.IOUtils.lineIterator(java.io.InputStream, java.nio.charset.Charset)	669.json	org.apache.commons.io.IOUtils.lineIterator(java.io.InputStream, java.lang.String)	true	2116
+511.json	org.apache.commons.io.ThreadMonitor.stop(java.lang.Thread)	494.json	org.apache.commons.io.FileSystemUtils.performCommand(java.lang.String[], int, long)	true	2664
+453.json	org.apache.commons.io.input.ProxyInputStream.read(byte[], int, int)	247.json,353.json,365.json	org.apache.commons.io.input.SwappedDataInputStream.readFully(byte[], int, int),org.apache.commons.io.input.ObservableInputStream.read(byte[], int, int),org.apache.commons.io.input.TeeInputStream.read(byte[], int, int)	true	5517
+1164.json	org.apache.commons.io.FileUtils.writeByteArrayToFile(java.io.File, byte[], int, int, boolean)	1163.json,1162.json	org.apache.commons.io.FileUtils.writeByteArrayToFile(java.io.File, byte[], int, int),org.apache.commons.io.FileUtils.writeByteArrayToFile(java.io.File, byte[], boolean)	true	4931
+947.json	org.apache.commons.io.output.ProxyWriter.handleIOException(java.io.IOException)	938.json,935.json,937.json,942.json,941.json,940.json,939.json,943.json,944.json,936.json	org.apache.commons.io.output.ProxyWriter.write(int),org.apache.commons.io.output.ProxyWriter.append(char),org.apache.commons.io.output.ProxyWriter.append(java.lang.CharSequence),org.apache.commons.io.output.ProxyWriter.write(java.lang.String, int, int),org.apache.commons.io.output.ProxyWriter.write(java.lang.String),org.apache.commons.io.output.ProxyWriter.write(char[], int, int),org.apache.commons.io.output.ProxyWriter.write(char[]),org.apache.commons.io.output.ProxyWriter.flush(),org.apache.commons.io.output.ProxyWriter.close(),org.apache.commons.io.output.ProxyWriter.append(java.lang.CharSequence, int, int)	true	3257
+656.json	org.apache.commons.io.IOUtils.copyLarge(java.io.InputStream, java.io.OutputStream)	1078.json,645.json	org.apache.commons.io.FileUtils.copyFile(java.io.File, java.io.OutputStream),org.apache.commons.io.IOUtils.copy(java.io.InputStream, java.io.OutputStream)	true	4112
+1080.json	org.apache.commons.io.FileUtils.copyFileToDirectory(java.io.File, java.io.File, boolean)	1079.json	org.apache.commons.io.FileUtils.copyFileToDirectory(java.io.File, java.io.File)	true	5669
+837.json	org.apache.commons.io.output.ThresholdingOutputStream.flush()	838.json	org.apache.commons.io.output.ThresholdingOutputStream.close()	true	5097
+591.json	org.apache.commons.io.monitor.FileEntry.getChildren()	582.json,578.json,579.json	org.apache.commons.io.monitor.FileAlterationObserver.doCreate(org.apache.commons.io.monitor.FileEntry),org.apache.commons.io.monitor.FileAlterationObserver.checkAndNotify(),org.apache.commons.io.monitor.FileAlterationObserver.checkAndNotify(org.apache.commons.io.monitor.FileEntry, org.apache.commons.io.monitor.FileEntry[], java.io.File[])	true	3570
+506.json	org.apache.commons.io.LineIterator.closeQuietly(org.apache.commons.io.LineIterator)	noCall	noCall	true	4392
+887.json	org.apache.commons.io.output.ByteArrayOutputStream.toString(java.lang.String)	noCall	noCall	true	5399
+886.json	org.apache.commons.io.output.ByteArrayOutputStream.toString()	noCall	noCall	true	5399
+736.json	org.apache.commons.io.IOUtils.write(byte[], java.io.Writer, java.nio.charset.Charset)	735.json,737.json	org.apache.commons.io.IOUtils.write(byte[], java.io.Writer),org.apache.commons.io.IOUtils.write(byte[], java.io.Writer, java.lang.String)	true	4902
+709.json	org.apache.commons.io.IOUtils.toByteArray(java.net.URI)	noCall	noCall	true	2099
+689.json	org.apache.commons.io.IOUtils.resourceToString(java.lang.String, java.nio.charset.Charset, java.lang.ClassLoader)	688.json	org.apache.commons.io.IOUtils.resourceToString(java.lang.String, java.nio.charset.Charset)	true	418
+1179.json	org.apache.commons.io.FileSystem.getCurrent()	noCall	noCall	true	60
+746.json	org.apache.commons.io.IOUtils.write(java.lang.String, java.io.OutputStream)	noCall	noCall	true	4902
+301.json	org.apache.commons.io.input.BoundedInputStream.isPropagateClose()	noCall	noCall	true	2665
+326.json	org.apache.commons.io.input.NullReader.read()	noCall	noCall	true	4116
+99.json	org.apache.commons.io.filefilter.FileFileFilter.accept(java.io.File)	noCall	noCall	true	4193
+152.json	org.apache.commons.io.FilenameUtils.isSystemWindows()	163.json	org.apache.commons.io.FilenameUtils.separatorsToSystem(java.lang.String)	true	4221
+81.json	org.apache.commons.io.filefilter.AndFileFilter.accept(java.io.File, java.lang.String)	noCall	noCall	true	5357
+385.json	org.apache.commons.io.input.BoundedReader.read()	386.json	org.apache.commons.io.input.BoundedReader.read(char[], int, int)	true	1175
+1156.json	org.apache.commons.io.FileUtils.write(java.io.File, java.lang.CharSequence, boolean)	noCall	noCall	true	3630
+145.json	org.apache.commons.io.FileCleaningTracker.addTracker(java.lang.String, java.lang.Object, org.apache.commons.io.FileDeleteStrategy)	144.json,142.json	org.apache.commons.io.FileCleaningTracker.track(java.lang.String, java.lang.Object, org.apache.commons.io.FileDeleteStrategy),org.apache.commons.io.FileCleaningTracker.track(java.io.File, java.lang.Object, org.apache.commons.io.FileDeleteStrategy)	true	4059
+773.json	org.apache.commons.io.DirectoryWalker.handleFile(java.io.File, int, java.util.Collection<T>)	765.json	org.apache.commons.io.DirectoryWalker.walk(java.io.File, int, java.util.Collection<T>)	true	4193
+739.json	org.apache.commons.io.IOUtils.write(char[], java.io.OutputStream, java.nio.charset.Charset)	740.json,738.json	org.apache.commons.io.IOUtils.write(char[], java.io.OutputStream, java.lang.String),org.apache.commons.io.IOUtils.write(char[], java.io.OutputStream)	true	2116
+566.json	org.apache.commons.io.monitor.FileAlterationListenerAdaptor.onDirectoryDelete(java.io.File)	noCall	noCall	true	3570
+137.json	org.apache.commons.io.ByteOrderMark.getBytes()	noCall	noCall	true	2660
+421.json	org.apache.commons.io.input.XmlStreamReader.getDefaultEncoding()	noCall	noCall	true	2660
+704.json	org.apache.commons.io.IOUtils.toByteArray(java.io.InputStream, long)	1129.json	org.apache.commons.io.FileUtils.readFileToByteArray(java.io.File)	true	2471
+480.json	org.apache.commons.io.input.ReversedLinesFileReader.FilePart.getNewLineMatchByteCount(byte[], int)	null	org.apache.commons.io.input.ReversedLinesFileReader.FilePart.readLine()	true	2252
+594.json	org.apache.commons.io.monitor.FileEntry.getName()	noCall	noCall	true	3570
+514.json	org.apache.commons.io.ByteOrderParser.parseByteOrder(java.lang.String)	noCall	noCall	true	618
+909.json	org.apache.commons.io.output.NullWriter.write(char[])	noCall	noCall	true	4116
+72.json	org.apache.commons.io.filefilter.SizeFileFilter.accept(java.io.File)	noCall	noCall	true	4396
+1056.json	org.apache.commons.io.IOCase.checkIndexOf(java.lang.String, int, java.lang.String)	190.json	org.apache.commons.io.FilenameUtils.wildcardMatch(java.lang.String, java.lang.String, org.apache.commons.io.IOCase)	true	3516
+1149.json	org.apache.commons.io.FileUtils.touch(java.io.File)	noCall	noCall	true	5167
+1112.json	org.apache.commons.io.FileUtils.isSymlink(java.io.File)	1089.json,1145.json,1143.json,1088.json	org.apache.commons.io.FileUtils.deleteDirectoryOnExit(java.io.File),org.apache.commons.io.FileUtils.sizeOfDirectoryBig0(java.io.File),org.apache.commons.io.FileUtils.sizeOfDirectory0(java.io.File),org.apache.commons.io.FileUtils.deleteDirectory(java.io.File)	true	3443
+274.json	org.apache.commons.io.input.Tailer.create(java.io.File, org.apache.commons.io.input.TailerListener, long)	noCall	noCall	true	2663
+810.json	org.apache.commons.io.output.FileWriterWithEncoding.write(char[], int, int)	noCall	noCall	true	3660
+441.json	org.apache.commons.io.input.BOMInputStream.matches(org.apache.commons.io.ByteOrderMark)	440.json	org.apache.commons.io.input.BOMInputStream.find()	true	2660
+684.json	org.apache.commons.io.IOUtils.readLines(java.io.InputStream, java.lang.String)	noCall	noCall	true	4534
+1124.json	org.apache.commons.io.FileUtils.moveFileToDirectory(java.io.File, java.io.File, boolean)	1125.json	org.apache.commons.io.FileUtils.moveToDirectory(java.io.File, java.io.File, boolean)	true	3660
+1066.json	org.apache.commons.io.FileUtils.cleanDirectory(java.io.File)	1090.json,1088.json	org.apache.commons.io.FileUtils.deleteQuietly(java.io.File),org.apache.commons.io.FileUtils.deleteDirectory(java.io.File)	true	5669
+820.json	org.apache.commons.io.output.WriterOutputStream.processInput(boolean)	815.json,819.json	org.apache.commons.io.output.WriterOutputStream.write(byte[], int, int),org.apache.commons.io.output.WriterOutputStream.close()	true	3327
+232.json	org.apache.commons.io.input.NullInputStream.doEndOfFile()	225.json,227.json,229.json	org.apache.commons.io.input.NullInputStream.read(),org.apache.commons.io.input.NullInputStream.read(byte[], int, int),org.apache.commons.io.input.NullInputStream.skip(long)	true	4116
+313.json	org.apache.commons.io.input.ProxyReader.ready()	noCall	noCall	true	5131
+251.json	org.apache.commons.io.input.SwappedDataInputStream.readShort()	243.json	org.apache.commons.io.input.SwappedDataInputStream.readChar()	true	5669
+679.json	org.apache.commons.io.IOUtils.readFully(java.nio.channels.ReadableByteChannel, java.nio.ByteBuffer)	noCall	noCall	true	1872
+67.json	org.apache.commons.io.filefilter.HiddenFileFilter.accept(java.io.File)	noCall	noCall	true	4194
+1083.json	org.apache.commons.io.FileUtils.copyToDirectory(java.lang.Iterable<java.io.File>, java.io.File)	noCall	noCall	true	258
+275.json	org.apache.commons.io.input.Tailer.create(java.io.File, org.apache.commons.io.input.TailerListener)	noCall	noCall	true	2663
+1182.json	org.apache.commons.io.FileSystem.isOsNameMatch(java.lang.String, java.lang.String)	1180.json	org.apache.commons.io.FileSystem.getOsMatchesName(java.lang.String)	true	60
+1106.json	org.apache.commons.io.FileUtils.isFileNewer(java.io.File, java.util.Date)	noCall	noCall	true	5260
+885.json	org.apache.commons.io.output.ByteArrayOutputStream.toByteArray()	888.json,702.json,706.json,886.json,887.json,923.json	org.apache.commons.io.output.ByteArrayOutputStream.toString(java.nio.charset.Charset),org.apache.commons.io.IOUtils.toByteArray(java.io.InputStream),org.apache.commons.io.IOUtils.toByteArray(java.io.Reader, java.nio.charset.Charset),org.apache.commons.io.output.ByteArrayOutputStream.toString(),org.apache.commons.io.output.ByteArrayOutputStream.toString(java.lang.String),org.apache.commons.io.output.DeferredFileOutputStream.getData()	true	5399
+46.json	org.apache.commons.io.filefilter.AgeFileFilter.toString()	noCall	noCall	true	3895
+715.json	org.apache.commons.io.IOUtils.toCharArray(java.io.Reader)	noCall	noCall	true	4891
+823.json	org.apache.commons.io.output.TaggedOutputStream.isCauseOf(java.lang.Exception)	noCall	noCall	true	3264
+306.json	org.apache.commons.io.input.XmlStreamReaderException.getContentTypeMime()	noCall	noCall	true	2660
+723.json	org.apache.commons.io.IOUtils.toString(byte[], java.lang.String)	noCall	noCall	true	5287
+609.json	org.apache.commons.io.monitor.FileAlterationMonitor.start()	noCall	noCall	true	3570
+670.json	org.apache.commons.io.IOUtils.lineIterator(java.io.Reader)	noCall	noCall	true	4392
+151.json	org.apache.commons.io.FileCleaningTracker.Tracker.delete()	149.json	org.apache.commons.io.FileCleaningTracker.Reaper.run()	true	5051
+809.json	org.apache.commons.io.output.FileWriterWithEncoding.write(char[])	noCall	noCall	true	3660
+358.json	org.apache.commons.io.input.ObservableInputStream.noteClosed()	360.json	org.apache.commons.io.input.ObservableInputStream.close()	true	563
+289.json	org.apache.commons.io.input.MessageDigestCalculatingInputStream.MessageDigestMaintainingObserver.data(byte[], int, int)	noCall	noCall	true	563
+115.json	org.apache.commons.io.EndianUtils.writeSwappedLong(byte[], int, long)	119.json	org.apache.commons.io.EndianUtils.writeSwappedDouble(byte[], int, double)	true	5287
+260.json	org.apache.commons.io.input.WindowsLineEndingInputStream.mark(int)	noCall	noCall	true	1175
+5.json	org.apache.commons.io.filefilter.FileFilterUtils.filterList(org.apache.commons.io.filefilter.IOFileFilter, java.lang.Iterable<java.io.File>)	4.json	org.apache.commons.io.filefilter.FileFilterUtils.filter(org.apache.commons.io.filefilter.IOFileFilter, java.lang.Iterable<java.io.File>)	true	2665
+752.json	org.apache.commons.io.IOUtils.write(java.lang.StringBuffer, java.io.Writer)	noCall	noCall	true	4902
+442.json	org.apache.commons.io.input.BOMInputStream.read()	noCall	noCall	true	3333
+659.json	org.apache.commons.io.IOUtils.copyLarge(java.io.InputStream, java.io.OutputStream, long, long, byte[])	658.json	org.apache.commons.io.IOUtils.copyLarge(java.io.InputStream, java.io.OutputStream, long, long)	true	2130
+1159.json	org.apache.commons.io.FileUtils.write(java.io.File, java.lang.CharSequence, java.lang.String)	noCall	noCall	true	3630
+657.json	org.apache.commons.io.IOUtils.copyLarge(java.io.InputStream, java.io.OutputStream, byte[])	646.json	org.apache.commons.io.IOUtils.copy(java.io.InputStream, java.io.OutputStream, int)	true	2130
+1171.json	org.apache.commons.io.FileUtils.writeLines(java.io.File, java.lang.String, java.util.Collection<?>, java.lang.String)	noCall	noCall	true	4491
+386.json	org.apache.commons.io.input.BoundedReader.read(char[], int, int)	noCall	noCall	true	1175
+70.json	org.apache.commons.io.filefilter.SuffixFileFilter.toString()	noCall	noCall	true	3895
+938.json	org.apache.commons.io.output.ProxyWriter.write(int)	noCall	noCall	true	5131
+339.json	org.apache.commons.io.input.BrokenInputStream.available()	noCall	noCall	true	3264
+876.json	org.apache.commons.io.output.ByteArrayOutputStream.write(int)	noCall	noCall	true	5399
+884.json	org.apache.commons.io.output.ByteArrayOutputStream.toInputStream()	883.json	org.apache.commons.io.output.ByteArrayOutputStream.toBufferedInputStream(java.io.InputStream, int)	true	3328
+924.json	org.apache.commons.io.output.DeferredFileOutputStream.getFile()	noCall	noCall	true	5097
+777.json	org.apache.commons.io.DirectoryWalker.CancelException.getFile()	noCall	noCall	true	4112
+649.json	org.apache.commons.io.IOUtils.copy(java.io.InputStream, java.io.Writer, java.lang.String)	noCall	noCall	true	4902
+8.json	org.apache.commons.io.filefilter.FileFilterUtils.filterSet(org.apache.commons.io.filefilter.IOFileFilter, java.lang.Iterable<java.io.File>)	noCall	noCall	true	2665
+940.json	org.apache.commons.io.output.ProxyWriter.write(char[], int, int)	noCall	noCall	true	5131
+814.json	org.apache.commons.io.output.FileWriterWithEncoding.close()	noCall	noCall	true	3660
+216.json	org.apache.commons.io.input.ReaderInputStream.read(byte[])	noCall	noCall	true	3327
+1146.json	org.apache.commons.io.FileUtils.toFile(java.net.URL)	1147.json	org.apache.commons.io.FileUtils.toFiles(java.net.URL[])	true	5669
+483.json	org.apache.commons.io.HexDump.dump(java.lang.StringBuilder, byte)	481.json	org.apache.commons.io.HexDump.dump(byte[], long, java.io.OutputStream, int)	true	5806
+663.json	org.apache.commons.io.IOUtils.copyLarge(java.io.Reader, java.io.Writer, long, long, char[])	662.json	org.apache.commons.io.IOUtils.copyLarge(java.io.Reader, java.io.Writer, long, long)	true	2130
+43.json	org.apache.commons.io.filefilter.FileFilterUtils.makeDirectoryOnly(org.apache.commons.io.filefilter.IOFileFilter)	noCall	noCall	true	4110
+433.json	org.apache.commons.io.input.XmlStreamReader.isAppXml(java.lang.String)	429.json	org.apache.commons.io.input.XmlStreamReader.calculateHttpEncoding(java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean)	true	2660
+750.json	org.apache.commons.io.IOUtils.write(java.lang.StringBuffer, java.io.OutputStream)	noCall	noCall	true	4902
+170.json	org.apache.commons.io.FilenameUtils.doGetPath(java.lang.String, int)	169.json,168.json	org.apache.commons.io.FilenameUtils.getPathNoEndSeparator(java.lang.String),org.apache.commons.io.FilenameUtils.getPath(java.lang.String)	true	5669
+205.json	org.apache.commons.io.Charsets.toCharset(java.lang.String)	740.json,757.json,669.json,714.json,718.json,684.json,737.json,707.json,744.json,730.json,723.json,721.json,1132.json,1160.json,726.json,null,733.json,748.json,751.json,1135.json,649.json,654.json	org.apache.commons.io.IOUtils.write(char[], java.io.OutputStream, java.lang.String),org.apache.commons.io.IOUtils.writeLines(java.util.Collection<?>, java.lang.String, java.io.OutputStream, java.lang.String),org.apache.commons.io.IOUtils.lineIterator(java.io.InputStream, java.lang.String),org.apache.commons.io.IOUtils.toCharArray(java.io.InputStream, java.lang.String),org.apache.commons.io.IOUtils.toInputStream(java.lang.CharSequence, java.lang.String),org.apache.commons.io.IOUtils.readLines(java.io.InputStream, java.lang.String),org.apache.commons.io.IOUtils.write(byte[], java.io.Writer, java.lang.String),org.apache.commons.io.IOUtils.toByteArray(java.io.Reader, java.lang.String),org.apache.commons.io.IOUtils.write(java.lang.CharSequence, java.io.OutputStream, java.lang.String),org.apache.commons.io.IOUtils.toString(java.net.URI, java.lang.String),org.apache.commons.io.IOUtils.toString(byte[], java.lang.String),org.apache.commons.io.IOUtils.toInputStream(java.lang.String, java.lang.String),org.apache.commons.io.FileUtils.readFileToString(java.io.File, java.lang.String),org.apache.commons.io.FileUtils.write(java.io.File, java.lang.CharSequence, java.lang.String, boolean),org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.lang.String),org.apache.commons.io.FileUtils.writeStringToFile(java.io.File, java.lang.String, java.lang.String, boolean),org.apache.commons.io.IOUtils.toString(java.net.URL, java.lang.String),org.apache.commons.io.IOUtils.write(java.lang.String, java.io.OutputStream, java.lang.String),org.apache.commons.io.IOUtils.write(java.lang.StringBuffer, java.io.OutputStream, java.lang.String),org.apache.commons.io.FileUtils.readLines(java.io.File, java.lang.String),org.apache.commons.io.IOUtils.copy(java.io.InputStream, java.io.Writer, java.lang.String),org.apache.commons.io.IOUtils.copy(java.io.Reader, java.io.OutputStream, java.lang.String)	true	2116
+785.json	org.apache.commons.io.output.ClosedOutputStream.write(int)	noCall	noCall	true	3747
+149.json	org.apache.commons.io.FileCleaningTracker.Reaper.run()	noCall	noCall	true	5051
+452.json	org.apache.commons.io.input.ProxyInputStream.read(byte[])	352.json,366.json	org.apache.commons.io.input.ObservableInputStream.read(byte[]),org.apache.commons.io.input.TeeInputStream.read(byte[])	true	5517
+878.json	org.apache.commons.io.output.ByteArrayOutputStream.size()	noCall	noCall	true	5399
+491.json	org.apache.commons.io.FileSystemUtils.parseDir(java.lang.String, java.lang.String)	490.json	org.apache.commons.io.FileSystemUtils.freeSpaceWindows(java.lang.String, long)	true	4160
+416.json	org.apache.commons.io.input.UnixLineEndingInputStream.readWithUpdate()	417.json	org.apache.commons.io.input.UnixLineEndingInputStream.read()	true	1175
+300.json	org.apache.commons.io.input.BoundedInputStream.markSupported()	noCall	noCall	true	2665
+3.json	org.apache.commons.io.filefilter.FileFilterUtils.filter(org.apache.commons.io.filefilter.IOFileFilter, java.io.File...)	7.json,6.json	org.apache.commons.io.filefilter.FileFilterUtils.filterSet(org.apache.commons.io.filefilter.IOFileFilter, java.io.File...),org.apache.commons.io.filefilter.FileFilterUtils.filterList(org.apache.commons.io.filefilter.IOFileFilter, java.io.File...)	true	2665
+305.json	org.apache.commons.io.input.XmlStreamReaderException.getXmlEncoding()	427.json	org.apache.commons.io.input.XmlStreamReader.doLenientDetection(java.lang.String, org.apache.commons.io.input.XmlStreamReaderException)	true	2660
+735.json	org.apache.commons.io.IOUtils.write(byte[], java.io.Writer)	noCall	noCall	true	4902
+1108.json	org.apache.commons.io.FileUtils.isFileNewer(java.io.File, long)	279.json,45.json,1106.json,1107.json	org.apache.commons.io.input.Tailer.run(),org.apache.commons.io.filefilter.AgeFileFilter.accept(java.io.File),org.apache.commons.io.FileUtils.isFileNewer(java.io.File, java.util.Date),org.apache.commons.io.FileUtils.isFileNewer(java.io.File, java.io.File)	true	5260
+610.json	org.apache.commons.io.monitor.FileAlterationMonitor.stop()	noCall	noCall	true	3570
+1162.json	org.apache.commons.io.FileUtils.writeByteArrayToFile(java.io.File, byte[], boolean)	1161.json	org.apache.commons.io.FileUtils.writeByteArrayToFile(java.io.File, byte[])	true	4931
+91.json	org.apache.commons.io.filefilter.AbstractFileFilter.toString()	70.json,53.json,102.json,46.json,94.json,60.json,82.json,64.json,98.json,73.json,75.json	org.apache.commons.io.filefilter.SuffixFileFilter.toString(),org.apache.commons.io.filefilter.WildcardFileFilter.toString(),org.apache.commons.io.filefilter.NotFileFilter.toString(),org.apache.commons.io.filefilter.AgeFileFilter.toString(),org.apache.commons.io.filefilter.DelegateFileFilter.toString(),org.apache.commons.io.filefilter.OrFileFilter.toString(),org.apache.commons.io.filefilter.AndFileFilter.toString(),org.apache.commons.io.filefilter.PrefixFileFilter.toString(),org.apache.commons.io.filefilter.NameFileFilter.toString(),org.apache.commons.io.filefilter.SizeFileFilter.toString(),org.apache.commons.io.filefilter.MagicNumberFileFilter.toString()	true	3895
+564.json	org.apache.commons.io.monitor.FileAlterationListenerAdaptor.onDirectoryCreate(java.io.File)	noCall	noCall	true	3570
+784.json	org.apache.commons.io.output.XmlStreamWriter.write(char[], int, int)	noCall	noCall	true	2660
+296.json	org.apache.commons.io.input.BoundedInputStream.toString()	noCall	noCall	true	2665
+258.json	org.apache.commons.io.input.WindowsLineEndingInputStream.eofGame()	257.json	org.apache.commons.io.input.WindowsLineEndingInputStream.read()	true	1175
+369.json	org.apache.commons.io.input.TaggedInputStream.handleIOException(java.io.IOException)	noCall	noCall	true	3257
+803.json	org.apache.commons.io.output.NullOutputStream.write(int)	noCall	noCall	true	5399
+702.json	org.apache.commons.io.IOUtils.toByteArray(java.io.InputStream)	711.json,1129.json	org.apache.commons.io.IOUtils.toByteArray(java.net.URLConnection),org.apache.commons.io.FileUtils.readFileToByteArray(java.io.File)	true	5287
+889.json	org.apache.commons.io.output.BrokenOutputStream.write(int)	noCall	noCall	true	3264
+691.json	org.apache.commons.io.IOUtils.resourceToURL(java.lang.String, java.lang.ClassLoader)	689.json,690.json,687.json	org.apache.commons.io.IOUtils.resourceToString(java.lang.String, java.nio.charset.Charset, java.lang.ClassLoader),org.apache.commons.io.IOUtils.resourceToURL(java.lang.String),org.apache.commons.io.IOUtils.resourceToByteArray(java.lang.String, java.lang.ClassLoader)	true	418
+576.json	org.apache.commons.io.monitor.FileAlterationObserver.initialize()	609.json	org.apache.commons.io.monitor.FileAlterationMonitor.start()	true	3570
+542.json	org.apache.commons.io.serialization.ValidatingObjectInputStream.reject(java.lang.String...)	noCall	noCall	true	787
+54.json	org.apache.commons.io.filefilter.OrFileFilter.addFileFilter(org.apache.commons.io.filefilter.IOFileFilter)	noCall	noCall	true	4830
+176.json	org.apache.commons.io.FilenameUtils.getBaseName(java.lang.String)	noCall	noCall	true	4801
+490.json	org.apache.commons.io.FileSystemUtils.freeSpaceWindows(java.lang.String, long)	489.json	org.apache.commons.io.FileSystemUtils.freeSpaceOS(java.lang.String, int, boolean, long)	true	4711
+686.json	org.apache.commons.io.IOUtils.resourceToByteArray(java.lang.String)	noCall	noCall	true	418
+447.json	org.apache.commons.io.input.BOMInputStream.skip(long)	noCall	noCall	true	3333
+865.json	org.apache.commons.io.output.LockableFileWriter.write(char[], int, int)	noCall	noCall	true	5833
+233.json	org.apache.commons.io.input.AutoCloseInputStream.close()	234.json,235.json	org.apache.commons.io.input.AutoCloseInputStream.afterRead(int),org.apache.commons.io.input.AutoCloseInputStream.finalize()	true	3747
+451.json	org.apache.commons.io.input.ProxyInputStream.read()	364.json,351.json	org.apache.commons.io.input.TeeInputStream.read(),org.apache.commons.io.input.ObservableInputStream.read()	true	5517
+470.json	org.apache.commons.io.input.TailerListenerAdapter.fileRotated()	noCall	noCall	true	2664
+743.json	org.apache.commons.io.IOUtils.write(java.lang.CharSequence, java.io.OutputStream, java.nio.charset.Charset)	744.json,742.json	org.apache.commons.io.IOUtils.write(java.lang.CharSequence, java.io.OutputStream, java.lang.String),org.apache.commons.io.IOUtils.write(java.lang.CharSequence, java.io.OutputStream)	true	2116
+414.json	org.apache.commons.io.input.CharSequenceInputStream.reset()	noCall	noCall	true	2145
+801.json	org.apache.commons.io.output.ChunkedWriter.write(char[], int, int)	noCall	noCall	true	1686
+497.json	org.apache.commons.io.TaggedIOException.throwCauseIfTaggedWith(java.lang.Throwable, java.lang.Object)	824.json,368.json	org.apache.commons.io.output.TaggedOutputStream.throwIfCauseOf(java.lang.Exception),org.apache.commons.io.input.TaggedInputStream.throwIfCauseOf(java.lang.Throwable)	true	3078
+375.json	org.apache.commons.io.input.CountingInputStream.resetByteCount()	373.json	org.apache.commons.io.input.CountingInputStream.resetCount()	true	4964
+498.json	org.apache.commons.io.TaggedIOException.getTag()	noCall	noCall	true	3264
+870.json	org.apache.commons.io.output.CountingOutputStream.getCount()	noCall	noCall	true	5805
+477.json	org.apache.commons.io.input.ReversedLinesFileReader.FilePart.rollOver()	null	org.apache.commons.io.input.ReversedLinesFileReader.readLine()	true	2252
+843.json	org.apache.commons.io.output.ThresholdingOutputStream.resetByteCount()	noCall	noCall	true	3890
+923.json	org.apache.commons.io.output.DeferredFileOutputStream.getData()	noCall	noCall	true	5097
+198.json	org.apache.commons.io.FileCleaner.track(java.lang.String, java.lang.Object)	noCall	noCall	true	5051
+808.json	org.apache.commons.io.output.FileWriterWithEncoding.write(int)	noCall	noCall	true	3660
+103.json	org.apache.commons.io.filefilter.CanReadFileFilter.accept(java.io.File)	noCall	noCall	true	4194
+245.json	org.apache.commons.io.input.SwappedDataInputStream.readFloat()	noCall	noCall	true	5669
+1135.json	org.apache.commons.io.FileUtils.readLines(java.io.File, java.lang.String)	noCall	noCall	true	4534
+230.json	org.apache.commons.io.input.NullInputStream.processByte()	225.json	org.apache.commons.io.input.NullInputStream.read()	true	4116
+476.json	org.apache.commons.io.input.ReversedLinesFileReader.close()	noCall	noCall	true	2252
+225.json	org.apache.commons.io.input.NullInputStream.read()	noCall	noCall	true	4116
+643.json	org.apache.commons.io.IOUtils.contentEquals(java.io.Reader, java.io.Reader)	noCall	noCall	true	4902
+783.json	org.apache.commons.io.output.XmlStreamWriter.detectEncoding(char[], int, int)	784.json	org.apache.commons.io.output.XmlStreamWriter.write(char[], int, int)	true	2660
+731.json	org.apache.commons.io.IOUtils.toString(java.net.URL)	noCall	noCall	true	2469
+33.json	org.apache.commons.io.filefilter.FileFilterUtils.ageFileFilter(java.io.File, boolean)	noCall	noCall	true	4396
+472.json	org.apache.commons.io.input.TailerListenerAdapter.handle(java.lang.Exception)	noCall	noCall	true	2664
+1121.json	org.apache.commons.io.FileUtils.moveDirectory(java.io.File, java.io.File)	1122.json	org.apache.commons.io.FileUtils.moveDirectoryToDirectory(java.io.File, java.io.File, boolean)	true	3660
+113.json	org.apache.commons.io.EndianUtils.readSwappedInteger(byte[], int)	116.json,118.json	org.apache.commons.io.EndianUtils.readSwappedLong(byte[], int),org.apache.commons.io.EndianUtils.readSwappedFloat(byte[], int)	true	5287
+673.json	org.apache.commons.io.IOUtils.read(java.nio.channels.ReadableByteChannel, java.nio.ByteBuffer)	679.json	org.apache.commons.io.IOUtils.readFully(java.nio.channels.ReadableByteChannel, java.nio.ByteBuffer)	true	1872
+804.json	org.apache.commons.io.output.NullOutputStream.write(byte[])	noCall	noCall	true	5399
+312.json	org.apache.commons.io.input.ProxyReader.skip(long)	noCall	noCall	true	5131
+276.json	org.apache.commons.io.input.Tailer.getFile()	noCall	noCall	true	2664
+319.json	org.apache.commons.io.input.ProxyReader.afterRead(int)	309.json,308.json,311.json,310.json	org.apache.commons.io.input.ProxyReader.read(char[]),org.apache.commons.io.input.ProxyReader.read(),org.apache.commons.io.input.ProxyReader.read(java.nio.CharBuffer),org.apache.commons.io.input.ProxyReader.read(char[], int, int)	true	2832
+277.json	org.apache.commons.io.input.Tailer.getRun()	279.json,281.json	org.apache.commons.io.input.Tailer.run(),org.apache.commons.io.input.Tailer.readLines(java.io.RandomAccessFile)	true	1934
+937.json	org.apache.commons.io.output.ProxyWriter.append(java.lang.CharSequence)	noCall	noCall	true	3630
+124.json	org.apache.commons.io.EndianUtils.writeSwappedInteger(java.io.OutputStream, int)	129.json	org.apache.commons.io.EndianUtils.writeSwappedFloat(java.io.OutputStream, float)	true	5287
+36.json	org.apache.commons.io.filefilter.FileFilterUtils.sizeRangeFileFilter(long, long)	noCall	noCall	true	4193
+181.json	org.apache.commons.io.FilenameUtils.equalsOnSystem(java.lang.String, java.lang.String)	noCall	noCall	true	4666
+315.json	org.apache.commons.io.input.ProxyReader.mark(int)	noCall	noCall	true	5131
+443.json	org.apache.commons.io.input.BOMInputStream.read(byte[], int, int)	444.json	org.apache.commons.io.input.BOMInputStream.read(byte[])	true	3333
+1085.json	org.apache.commons.io.FileUtils.copyURLToFile(java.net.URL, java.io.File)	noCall	noCall	true	5669
+589.json	org.apache.commons.io.monitor.FileEntry.getParent()	noCall	noCall	true	3570
+55.json	org.apache.commons.io.filefilter.OrFileFilter.getFileFilters()	noCall	noCall	true	4830
+249.json	org.apache.commons.io.input.SwappedDataInputStream.readLine()	noCall	noCall	true	5669
+1128.json	org.apache.commons.io.FileUtils.openOutputStream(java.io.File, boolean)	null,1172.json,1164.json,1127.json	org.apache.commons.io.FileUtils.writeStringToFile(java.io.File, java.lang.String, java.nio.charset.Charset, boolean),org.apache.commons.io.FileUtils.writeLines(java.io.File, java.lang.String, java.util.Collection<?>, java.lang.String, boolean),org.apache.commons.io.FileUtils.writeByteArrayToFile(java.io.File, byte[], int, int, boolean),org.apache.commons.io.FileUtils.openOutputStream(java.io.File)	true	4035
+1.json	org.apache.commons.io.filefilter.WildcardFilter.accept(java.io.File, java.lang.String)	noCall	noCall	true	4863
+524.json	org.apache.commons.io.comparator.SizeFileComparator.compare(java.io.File, java.io.File)	noCall	noCall	true	3662
+841.json	org.apache.commons.io.output.ThresholdingOutputStream.isThresholdExceeded()	922.json	org.apache.commons.io.output.DeferredFileOutputStream.isInMemory()	true	5097
+114.json	org.apache.commons.io.EndianUtils.readSwappedUnsignedInteger(byte[], int)	noCall	noCall	true	5287
+1069.json	org.apache.commons.io.FileUtils.contentEqualsIgnoreEOL(java.io.File, java.io.File, java.lang.String)	noCall	noCall	true	2257
+779.json	org.apache.commons.io.output.XmlStreamWriter.getEncoding()	noCall	noCall	true	2660
+10.json	org.apache.commons.io.filefilter.FileFilterUtils.prefixFileFilter(java.lang.String)	noCall	noCall	true	5517
+174.json	org.apache.commons.io.FilenameUtils.getName(java.lang.String)	176.json	org.apache.commons.io.FilenameUtils.getBaseName(java.lang.String)	true	4824
+417.json	org.apache.commons.io.input.UnixLineEndingInputStream.read()	417.json	org.apache.commons.io.input.UnixLineEndingInputStream.read()	true	1175
+714.json	org.apache.commons.io.IOUtils.toCharArray(java.io.InputStream, java.lang.String)	noCall	noCall	true	4891
+867.json	org.apache.commons.io.output.LockableFileWriter.write(java.lang.String, int, int)	noCall	noCall	true	5833
+1163.json	org.apache.commons.io.FileUtils.writeByteArrayToFile(java.io.File, byte[], int, int)	noCall	noCall	true	4931
+834.json	org.apache.commons.io.output.ThresholdingOutputStream.write(int)	noCall	noCall	true	5097
+7.json	org.apache.commons.io.filefilter.FileFilterUtils.filterSet(org.apache.commons.io.filefilter.IOFileFilter, java.io.File...)	noCall	noCall	true	2665
+764.json	org.apache.commons.io.DirectoryWalker.walk(java.io.File, java.util.Collection<T>)	noCall	noCall	true	4193
+1049.json	org.apache.commons.io.IOCase.readResolve()	noCall	noCall	true	4221
+120.json	org.apache.commons.io.EndianUtils.readSwappedDouble(byte[], int)	noCall	noCall	true	5287
+941.json	org.apache.commons.io.output.ProxyWriter.write(java.lang.String)	noCall	noCall	true	5131
+189.json	org.apache.commons.io.FilenameUtils.wildcardMatchOnSystem(java.lang.String, java.lang.String)	noCall	noCall	true	4666
+695.json	org.apache.commons.io.IOUtils.skipFully(java.io.InputStream, long)	659.json	org.apache.commons.io.IOUtils.copyLarge(java.io.InputStream, java.io.OutputStream, long, long, byte[])	true	2870
+767.json	org.apache.commons.io.DirectoryWalker.handleIsCancelled(java.io.File, int, java.util.Collection<T>)	766.json	org.apache.commons.io.DirectoryWalker.checkIfCancelled(java.io.File, int, java.util.Collection<T>)	true	4060
+361.json	org.apache.commons.io.input.ObservableInputStream.consume()	noCall	noCall	true	563
+697.json	org.apache.commons.io.IOUtils.skipFully(java.io.Reader, long)	663.json	org.apache.commons.io.IOUtils.copyLarge(java.io.Reader, java.io.Writer, long, long, char[])	true	2870
+69.json	org.apache.commons.io.filefilter.SuffixFileFilter.accept(java.io.File, java.lang.String)	noCall	noCall	true	5357
+547.json	org.apache.commons.io.serialization.WildcardClassNameMatcher.matches(java.lang.String)	noCall	noCall	true	787
+1155.json	org.apache.commons.io.FileUtils.write(java.io.File, java.lang.CharSequence)	noCall	noCall	true	3630
+466.json	org.apache.commons.io.input.InfiniteCircularInputStream.read()	noCall	noCall	true	409
+868.json	org.apache.commons.io.output.LockableFileWriter.flush()	noCall	noCall	true	5833
+142.json	org.apache.commons.io.FileCleaningTracker.track(java.io.File, java.lang.Object, org.apache.commons.io.FileDeleteStrategy)	197.json,141.json	org.apache.commons.io.FileCleaner.track(java.io.File, java.lang.Object, org.apache.commons.io.FileDeleteStrategy),org.apache.commons.io.FileCleaningTracker.track(java.io.File, java.lang.Object)	true	3960
+1148.json	org.apache.commons.io.FileUtils.toSuffixes(java.lang.String[])	1119.json	org.apache.commons.io.FileUtils.listFiles(java.io.File, java.lang.String[], boolean)	true	5167
+537.json	org.apache.commons.io.serialization.ValidatingObjectInputStream.invalidClassNameFound(java.lang.String)	536.json	org.apache.commons.io.serialization.ValidatingObjectInputStream.validateClassName(java.lang.String)	true	787
+214.json	org.apache.commons.io.input.ReaderInputStream.fillBuffer()	215.json,217.json	org.apache.commons.io.input.ReaderInputStream.read(byte[], int, int),org.apache.commons.io.input.ReaderInputStream.read()	true	2145
+627.json	org.apache.commons.io.IOUtils.buffer(java.io.Writer)	noCall	noCall	true	1730
+728.json	org.apache.commons.io.IOUtils.toString(java.net.URI)	noCall	noCall	true	2469
+220.json	org.apache.commons.io.input.NullInputStream.getSize()	noCall	noCall	true	4116
+911.json	org.apache.commons.io.output.NullWriter.write(java.lang.String)	noCall	noCall	true	4116
+252.json	org.apache.commons.io.input.SwappedDataInputStream.readUnsignedByte()	noCall	noCall	true	5669
+169.json	org.apache.commons.io.FilenameUtils.getPathNoEndSeparator(java.lang.String)	noCall	noCall	true	4513
+854.json	org.apache.commons.io.output.StringBuilderWriter.getBuilder()	noCall	noCall	true	3630
+719.json	org.apache.commons.io.IOUtils.toInputStream(java.lang.String)	noCall	noCall	true	4666
+712.json	org.apache.commons.io.IOUtils.toCharArray(java.io.InputStream)	noCall	noCall	true	4891
+346.json	org.apache.commons.io.input.ObservableInputStream.Observer.closed()	358.json	org.apache.commons.io.input.ObservableInputStream.noteClosed()	true	563
+1089.json	org.apache.commons.io.FileUtils.deleteDirectoryOnExit(java.io.File)	1095.json	org.apache.commons.io.FileUtils.forceDeleteOnExit(java.io.File)	true	5669
+461.json	org.apache.commons.io.input.ProxyInputStream.afterRead(int)	451.json,452.json,453.json	org.apache.commons.io.input.ProxyInputStream.read(),org.apache.commons.io.input.ProxyInputStream.read(byte[]),org.apache.commons.io.input.ProxyInputStream.read(byte[], int, int)	true	3072
+774.json	org.apache.commons.io.DirectoryWalker.handleRestricted(java.io.File, int, java.util.Collection<T>)	765.json	org.apache.commons.io.DirectoryWalker.walk(java.io.File, int, java.util.Collection<T>)	true	4193
+481.json	org.apache.commons.io.HexDump.dump(byte[], long, java.io.OutputStream, int)	noCall	noCall	true	5806
+920.json	org.apache.commons.io.output.DeferredFileOutputStream.getStream()	noCall	noCall	true	5097
+105.json	org.apache.commons.io.EndianUtils.swapInteger(int)	107.json	org.apache.commons.io.EndianUtils.swapFloat(float)	true	5287
+655.json	org.apache.commons.io.IOUtils.copy(java.io.Reader, java.io.Writer)	727.json,648.json,653.json,715.json	org.apache.commons.io.IOUtils.toString(java.io.Reader),org.apache.commons.io.IOUtils.copy(java.io.InputStream, java.io.Writer, java.nio.charset.Charset),org.apache.commons.io.IOUtils.copy(java.io.Reader, java.io.OutputStream, java.nio.charset.Charset),org.apache.commons.io.IOUtils.toCharArray(java.io.Reader)	true	4902
+366.json	org.apache.commons.io.input.TeeInputStream.read(byte[])	noCall	noCall	true	3746
+544.json	org.apache.commons.io.serialization.ValidatingObjectInputStream.reject(java.util.regex.Pattern)	noCall	noCall	true	787
+707.json	org.apache.commons.io.IOUtils.toByteArray(java.io.Reader, java.lang.String)	noCall	noCall	true	4915
+412.json	org.apache.commons.io.input.CharSequenceInputStream.close()	noCall	noCall	true	2145
+1090.json	org.apache.commons.io.FileUtils.deleteQuietly(java.io.File)	807.json,1123.json,861.json	org.apache.commons.io.output.FileWriterWithEncoding.initWriter(java.io.File, java.lang.Object, boolean),org.apache.commons.io.FileUtils.moveFile(java.io.File, java.io.File),org.apache.commons.io.output.LockableFileWriter.initWriter(java.io.File, java.nio.charset.Charset, boolean)	true	3662
+658.json	org.apache.commons.io.IOUtils.copyLarge(java.io.InputStream, java.io.OutputStream, long, long)	noCall	noCall	true	2130
+1114.json	org.apache.commons.io.FileUtils.iterateFiles(java.io.File, java.lang.String[], boolean)	noCall	noCall	true	4396
+579.json	org.apache.commons.io.monitor.FileAlterationObserver.checkAndNotify(org.apache.commons.io.monitor.FileEntry, org.apache.commons.io.monitor.FileEntry[], java.io.File[])	578.json,579.json	org.apache.commons.io.monitor.FileAlterationObserver.checkAndNotify(),org.apache.commons.io.monitor.FileAlterationObserver.checkAndNotify(org.apache.commons.io.monitor.FileEntry, org.apache.commons.io.monitor.FileEntry[], java.io.File[])	true	2651
+317.json	org.apache.commons.io.input.ProxyReader.markSupported()	noCall	noCall	true	5131
+126.json	org.apache.commons.io.EndianUtils.readSwappedUnsignedInteger(java.io.InputStream)	noCall	noCall	true	5287
+851.json	org.apache.commons.io.output.StringBuilderWriter.flush()	noCall	noCall	true	3630
+700.json	org.apache.commons.io.IOUtils.toBufferedReader(java.io.Reader)	685.json,644.json,643.json	org.apache.commons.io.IOUtils.readLines(java.io.Reader),org.apache.commons.io.IOUtils.contentEqualsIgnoreEOL(java.io.Reader, java.io.Reader),org.apache.commons.io.IOUtils.contentEquals(java.io.Reader, java.io.Reader)	true	2124
+373.json	org.apache.commons.io.input.CountingInputStream.resetCount()	noCall	noCall	true	4964
+1167.json	org.apache.commons.io.FileUtils.writeLines(java.io.File, java.util.Collection<?>, java.lang.String)	noCall	noCall	true	4034
+1122.json	org.apache.commons.io.FileUtils.moveDirectoryToDirectory(java.io.File, java.io.File, boolean)	1125.json	org.apache.commons.io.FileUtils.moveToDirectory(java.io.File, java.io.File, boolean)	true	3660
+141.json	org.apache.commons.io.FileCleaningTracker.track(java.io.File, java.lang.Object)	196.json	org.apache.commons.io.FileCleaner.track(java.io.File, java.lang.Object)	true	3960
+74.json	org.apache.commons.io.filefilter.MagicNumberFileFilter.accept(java.io.File)	noCall	noCall	true	2872
+213.json	org.apache.commons.io.input.CharSequenceReader.toString()	noCall	noCall	true	3662
+60.json	org.apache.commons.io.filefilter.OrFileFilter.toString()	noCall	noCall	true	3895
+819.json	org.apache.commons.io.output.WriterOutputStream.close()	noCall	noCall	true	3327
+1183.json	org.apache.commons.io.FileSystem.getIllegalFileNameChars()	noCall	noCall	true	60
+323.json	org.apache.commons.io.input.NullReader.close()	noCall	noCall	true	4116
+164.json	org.apache.commons.io.FilenameUtils.getPrefixLength(java.lang.String)	159.json,158.json,173.json,170.json,167.json	org.apache.commons.io.FilenameUtils.concat(java.lang.String, java.lang.String),org.apache.commons.io.FilenameUtils.doNormalize(java.lang.String, char, boolean),org.apache.commons.io.FilenameUtils.doGetFullPath(java.lang.String, boolean),org.apache.commons.io.FilenameUtils.doGetPath(java.lang.String, int),org.apache.commons.io.FilenameUtils.getPrefix(java.lang.String)	true	4801
+813.json	org.apache.commons.io.output.FileWriterWithEncoding.flush()	noCall	noCall	true	3660
+557.json	org.apache.commons.io.CopyUtils.copy(java.io.InputStream, java.io.Writer, java.lang.String)	553.json	org.apache.commons.io.CopyUtils.copy(byte[], java.io.Writer, java.lang.String)	true	5260
+271.json	org.apache.commons.io.input.Tailer.create(java.io.File, java.nio.charset.Charset, org.apache.commons.io.input.TailerListener, long, boolean, boolean, int)	270.json	org.apache.commons.io.input.Tailer.create(java.io.File, org.apache.commons.io.input.TailerListener, long, boolean, boolean, int)	true	1704
+629.json	org.apache.commons.io.IOUtils.closeQuietly(java.io.Closeable)	634.json,636.json,635.json,637.json,641.json	org.apache.commons.io.IOUtils.closeQuietly(java.io.Closeable...),org.apache.commons.io.IOUtils.closeQuietly(java.io.OutputStream),org.apache.commons.io.IOUtils.closeQuietly(java.io.InputStream),org.apache.commons.io.IOUtils.closeQuietly(java.io.Reader),org.apache.commons.io.IOUtils.closeQuietly(java.io.Writer)	true	5287
+1153.json	org.apache.commons.io.FileUtils.verifiedListFiles(java.io.File)	1067.json,1066.json	org.apache.commons.io.FileUtils.cleanDirectoryOnExit(java.io.File),org.apache.commons.io.FileUtils.cleanDirectory(java.io.File)	true	5669
+166.json	org.apache.commons.io.FilenameUtils.indexOfExtension(java.lang.String)	186.json,177.json,185.json,187.json,179.json	org.apache.commons.io.FilenameUtils.isExtension(java.lang.String, java.lang.String[]),org.apache.commons.io.FilenameUtils.getExtension(java.lang.String),org.apache.commons.io.FilenameUtils.isExtension(java.lang.String, java.lang.String),org.apache.commons.io.FilenameUtils.isExtension(java.lang.String, java.util.Collection<java.lang.String>),org.apache.commons.io.FilenameUtils.removeExtension(java.lang.String)	true	4824
+128.json	org.apache.commons.io.EndianUtils.readSwappedLong(java.io.InputStream)	250.json,132.json	org.apache.commons.io.input.SwappedDataInputStream.readLong(),org.apache.commons.io.EndianUtils.readSwappedDouble(java.io.InputStream)	true	5287
+415.json	org.apache.commons.io.input.CharSequenceInputStream.markSupported()	noCall	noCall	true	2145
+839.json	org.apache.commons.io.output.ThresholdingOutputStream.getThreshold()	noCall	noCall	true	5097
+499.json	org.apache.commons.io.TaggedIOException.getCause()	497.json	org.apache.commons.io.TaggedIOException.throwCauseIfTaggedWith(java.lang.Throwable, java.lang.Object)	true	3264
+1125.json	org.apache.commons.io.FileUtils.moveToDirectory(java.io.File, java.io.File, boolean)	noCall	noCall	true	3660
+946.json	org.apache.commons.io.output.ProxyWriter.afterWrite(int)	938.json,935.json,937.json,942.json,941.json,940.json,939.json,936.json	org.apache.commons.io.output.ProxyWriter.write(int),org.apache.commons.io.output.ProxyWriter.append(char),org.apache.commons.io.output.ProxyWriter.append(java.lang.CharSequence),org.apache.commons.io.output.ProxyWriter.write(java.lang.String, int, int),org.apache.commons.io.output.ProxyWriter.write(java.lang.String),org.apache.commons.io.output.ProxyWriter.write(char[], int, int),org.apache.commons.io.output.ProxyWriter.write(char[]),org.apache.commons.io.output.ProxyWriter.append(java.lang.CharSequence, int, int)	true	2832
+360.json	org.apache.commons.io.input.ObservableInputStream.close()	noCall	noCall	true	563
+78.json	org.apache.commons.io.filefilter.AndFileFilter.removeFileFilter(org.apache.commons.io.filefilter.IOFileFilter)	noCall	noCall	true	4830
+13.json	org.apache.commons.io.filefilter.FileFilterUtils.suffixFileFilter(java.lang.String, org.apache.commons.io.IOCase)	noCall	noCall	true	2720
+578.json	org.apache.commons.io.monitor.FileAlterationObserver.checkAndNotify()	612.json	org.apache.commons.io.monitor.FileAlterationMonitor.run()	true	3570
+254.json	org.apache.commons.io.input.SwappedDataInputStream.readUTF()	noCall	noCall	true	5669
+101.json	org.apache.commons.io.filefilter.NotFileFilter.accept(java.io.File, java.lang.String)	noCall	noCall	true	5517
+932.json	org.apache.commons.io.output.TeeOutputStream.write(int)	noCall	noCall	true	5805
+642.json	org.apache.commons.io.IOUtils.contentEquals(java.io.InputStream, java.io.InputStream)	1068.json	org.apache.commons.io.FileUtils.contentEquals(java.io.File, java.io.File)	true	5287
+1051.json	org.apache.commons.io.IOCase.isCaseSensitive()	noCall	noCall	true	4221
+717.json	org.apache.commons.io.IOUtils.toInputStream(java.lang.CharSequence, java.nio.charset.Charset)	718.json,716.json	org.apache.commons.io.IOUtils.toInputStream(java.lang.CharSequence, java.lang.String),org.apache.commons.io.IOUtils.toInputStream(java.lang.CharSequence)	true	3630
+14.json	org.apache.commons.io.filefilter.FileFilterUtils.nameFileFilter(java.lang.String)	noCall	noCall	true	5167
+202.json	org.apache.commons.io.FileCleaner.getInstance()	noCall	noCall	true	3960
+652.json	org.apache.commons.io.IOUtils.copy(java.io.Reader, java.io.OutputStream)	noCall	noCall	true	4902
+356.json	org.apache.commons.io.input.ObservableInputStream.noteDataByte(int)	351.json	org.apache.commons.io.input.ObservableInputStream.read()	true	563
+293.json	org.apache.commons.io.input.BoundedInputStream.read(byte[], int, int)	292.json	org.apache.commons.io.input.BoundedInputStream.read(byte[])	true	2665
+411.json	org.apache.commons.io.input.CharSequenceInputStream.available()	410.json	org.apache.commons.io.input.CharSequenceInputStream.skip(long)	true	2145
+1072.json	org.apache.commons.io.FileUtils.copyDirectory(java.io.File, java.io.File, boolean)	1071.json,1075.json	org.apache.commons.io.FileUtils.copyDirectory(java.io.File, java.io.File),org.apache.commons.io.FileUtils.copyDirectoryToDirectory(java.io.File, java.io.File)	true	4711
+1141.json	org.apache.commons.io.FileUtils.sizeOfBig0(java.io.File)	1145.json	org.apache.commons.io.FileUtils.sizeOfDirectoryBig0(java.io.File)	true	1649
+623.json	org.apache.commons.io.IOUtils.buffer(java.io.OutputStream)	noCall	noCall	true	1730
+45.json	org.apache.commons.io.filefilter.AgeFileFilter.accept(java.io.File)	noCall	noCall	true	4396
+840.json	org.apache.commons.io.output.ThresholdingOutputStream.getByteCount()	noCall	noCall	true	5097
+608.json	org.apache.commons.io.monitor.FileAlterationMonitor.getObservers()	noCall	noCall	true	3570
+706.json	org.apache.commons.io.IOUtils.toByteArray(java.io.Reader, java.nio.charset.Charset)	705.json,707.json	org.apache.commons.io.IOUtils.toByteArray(java.io.Reader),org.apache.commons.io.IOUtils.toByteArray(java.io.Reader, java.lang.String)	true	5287
+238.json	org.apache.commons.io.input.DemuxInputStream.bindStream(java.io.InputStream)	noCall	noCall	true	5669
+257.json	org.apache.commons.io.input.WindowsLineEndingInputStream.read()	noCall	noCall	true	1175
+44.json	org.apache.commons.io.filefilter.FileFilterUtils.makeFileOnly(org.apache.commons.io.filefilter.IOFileFilter)	noCall	noCall	true	4110
+185.json	org.apache.commons.io.FilenameUtils.isExtension(java.lang.String, java.lang.String)	noCall	noCall	true	4824
+155.json	org.apache.commons.io.FilenameUtils.normalize(java.lang.String, boolean)	490.json	org.apache.commons.io.FileSystemUtils.freeSpaceWindows(java.lang.String, long)	true	5669
+347.json	org.apache.commons.io.input.ObservableInputStream.Observer.error(java.io.IOException)	357.json	org.apache.commons.io.input.ObservableInputStream.noteError(java.io.IOException)	true	563
+31.json	org.apache.commons.io.filefilter.FileFilterUtils.ageFileFilter(java.util.Date, boolean)	noCall	noCall	true	4396
+729.json	org.apache.commons.io.IOUtils.toString(java.net.URI, java.nio.charset.Charset)	730.json,728.json	org.apache.commons.io.IOUtils.toString(java.net.URI, java.lang.String),org.apache.commons.io.IOUtils.toString(java.net.URI)	true	2469
+844.json	org.apache.commons.io.output.ThresholdingOutputStream.setByteCount(long)	noCall	noCall	true	940
+526.json	org.apache.commons.io.comparator.DirectoryFileComparator.compare(java.io.File, java.io.File)	noCall	noCall	true	3333
+1117.json	org.apache.commons.io.FileUtils.lineIterator(java.io.File, java.lang.String)	1116.json	org.apache.commons.io.FileUtils.lineIterator(java.io.File)	true	4392
+677.json	org.apache.commons.io.IOUtils.readFully(java.io.InputStream, byte[], int, int)	678.json,676.json	org.apache.commons.io.IOUtils.readFully(java.io.InputStream, int),org.apache.commons.io.IOUtils.readFully(java.io.InputStream, byte[])	true	2252
+807.json	org.apache.commons.io.output.FileWriterWithEncoding.initWriter(java.io.File, java.lang.Object, boolean)	noCall	noCall	true	3660
+122.json	org.apache.commons.io.EndianUtils.readSwappedShort(java.io.InputStream)	251.json	org.apache.commons.io.input.SwappedDataInputStream.readShort()	true	5287
+918.json	org.apache.commons.io.output.DemuxOutputStream.flush()	noCall	noCall	true	5669
+772.json	org.apache.commons.io.DirectoryWalker.filterDirectoryContents(java.io.File, int, java.io.File[])	765.json	org.apache.commons.io.DirectoryWalker.walk(java.io.File, int, java.util.Collection<T>)	true	3334
+489.json	org.apache.commons.io.FileSystemUtils.freeSpaceOS(java.lang.String, int, boolean, long)	484.json,486.json	org.apache.commons.io.FileSystemUtils.freeSpace(java.lang.String),org.apache.commons.io.FileSystemUtils.freeSpaceKb(java.lang.String, long)	true	4711
+525.json	org.apache.commons.io.comparator.SizeFileComparator.toString()	noCall	noCall	true	3333
+780.json	org.apache.commons.io.output.XmlStreamWriter.getDefaultEncoding()	noCall	noCall	true	2658
+512.json	org.apache.commons.io.ThreadMonitor.run()	noCall	noCall	true	2664
+200.json	org.apache.commons.io.FileCleaner.getTrackCount()	noCall	noCall	true	5051
+847.json	org.apache.commons.io.output.StringBuilderWriter.append(char)	noCall	noCall	true	3630
+226.json	org.apache.commons.io.input.NullInputStream.read(byte[])	noCall	noCall	true	4116
+328.json	org.apache.commons.io.input.NullReader.read(char[], int, int)	327.json	org.apache.commons.io.input.NullReader.read(char[])	true	4116
+648.json	org.apache.commons.io.IOUtils.copy(java.io.InputStream, java.io.Writer, java.nio.charset.Charset)	725.json,647.json,713.json,649.json	org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset),org.apache.commons.io.IOUtils.copy(java.io.InputStream, java.io.Writer),org.apache.commons.io.IOUtils.toCharArray(java.io.InputStream, java.nio.charset.Charset),org.apache.commons.io.IOUtils.copy(java.io.InputStream, java.io.Writer, java.lang.String)	true	2116
+769.json	org.apache.commons.io.DirectoryWalker.handleStart(java.io.File, java.util.Collection<T>)	764.json	org.apache.commons.io.DirectoryWalker.walk(java.io.File, java.util.Collection<T>)	true	4193
+501.json	org.apache.commons.io.LineIterator.isValidLine(java.lang.String)	500.json	org.apache.commons.io.LineIterator.hasNext()	true	4331
+492.json	org.apache.commons.io.FileSystemUtils.freeSpaceUnix(java.lang.String, boolean, boolean, long)	489.json	org.apache.commons.io.FileSystemUtils.freeSpaceOS(java.lang.String, int, boolean, long)	true	4711
+123.json	org.apache.commons.io.EndianUtils.readSwappedUnsignedShort(java.io.InputStream)	253.json	org.apache.commons.io.input.SwappedDataInputStream.readUnsignedShort()	true	5287
+811.json	org.apache.commons.io.output.FileWriterWithEncoding.write(java.lang.String)	noCall	noCall	true	3660
+696.json	org.apache.commons.io.IOUtils.skipFully(java.nio.channels.ReadableByteChannel, long)	noCall	noCall	true	1871
+1189.json	org.apache.commons.io.FileSystem.isIllegalFileNameChar(char)	1192.json,1190.json	org.apache.commons.io.FileSystem.toLegalFileName(java.lang.String, char),org.apache.commons.io.FileSystem.isLegalFileName(java.lang.CharSequence)	true	60
+1061.json	org.apache.commons.io.FileUtils.checkDirectory(java.io.File)	1144.json,1142.json	org.apache.commons.io.FileUtils.sizeOfDirectoryAsBigInteger(java.io.File),org.apache.commons.io.FileUtils.sizeOfDirectory(java.io.File)	true	2099
+316.json	org.apache.commons.io.input.ProxyReader.reset()	noCall	noCall	true	5131
+907.json	org.apache.commons.io.output.NullWriter.append(java.lang.CharSequence)	noCall	noCall	true	3630
+457.json	org.apache.commons.io.input.ProxyInputStream.mark(int)	noCall	noCall	true	5517
+545.json	org.apache.commons.io.serialization.ValidatingObjectInputStream.accept(org.apache.commons.io.serialization.ClassNameMatcher)	noCall	noCall	true	787
+162.json	org.apache.commons.io.FilenameUtils.separatorsToWindows(java.lang.String)	163.json	org.apache.commons.io.FilenameUtils.separatorsToSystem(java.lang.String)	true	4824
+685.json	org.apache.commons.io.IOUtils.readLines(java.io.Reader)	683.json	org.apache.commons.io.IOUtils.readLines(java.io.InputStream, java.nio.charset.Charset)	true	4534
+24.json	org.apache.commons.io.filefilter.FileFilterUtils.trueFileFilter()	noCall	noCall	true	5357
+1143.json	org.apache.commons.io.FileUtils.sizeOfDirectory0(java.io.File)	1139.json,1138.json,1142.json	org.apache.commons.io.FileUtils.sizeOf0(java.io.File),org.apache.commons.io.FileUtils.sizeOf(java.io.File),org.apache.commons.io.FileUtils.sizeOfDirectory(java.io.File)	true	1649
+713.json	org.apache.commons.io.IOUtils.toCharArray(java.io.InputStream, java.nio.charset.Charset)	714.json,712.json	org.apache.commons.io.IOUtils.toCharArray(java.io.InputStream, java.lang.String),org.apache.commons.io.IOUtils.toCharArray(java.io.InputStream)	true	4891
+830.json	org.apache.commons.io.output.ProxyOutputStream.close()	934.json	org.apache.commons.io.output.TeeOutputStream.close()	true	5517
+406.json	org.apache.commons.io.input.CharSequenceInputStream.fillBuffer()	407.json,408.json,414.json	org.apache.commons.io.input.CharSequenceInputStream.read(byte[], int, int),org.apache.commons.io.input.CharSequenceInputStream.read(),org.apache.commons.io.input.CharSequenceInputStream.reset()	true	2145
+430.json	org.apache.commons.io.input.XmlStreamReader.getContentTypeMime(java.lang.String)	429.json	org.apache.commons.io.input.XmlStreamReader.calculateHttpEncoding(java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean)	true	2660
+325.json	org.apache.commons.io.input.NullReader.markSupported()	noCall	noCall	true	4116
+758.json	org.apache.commons.io.IOUtils.writeLines(java.util.Collection<?>, java.lang.String, java.io.Writer)	noCall	noCall	true	4513
+863.json	org.apache.commons.io.output.LockableFileWriter.write(int)	noCall	noCall	true	5833
+869.json	org.apache.commons.io.output.CountingOutputStream.beforeWrite(int)	noCall	noCall	true	3072
+144.json	org.apache.commons.io.FileCleaningTracker.track(java.lang.String, java.lang.Object, org.apache.commons.io.FileDeleteStrategy)	199.json,143.json	org.apache.commons.io.FileCleaner.track(java.lang.String, java.lang.Object, org.apache.commons.io.FileDeleteStrategy),org.apache.commons.io.FileCleaningTracker.track(java.lang.String, java.lang.Object)	true	3960
+68.json	org.apache.commons.io.filefilter.SuffixFileFilter.accept(java.io.File)	noCall	noCall	true	5357
+504.json	org.apache.commons.io.LineIterator.close()	500.json,506.json	org.apache.commons.io.LineIterator.hasNext(),org.apache.commons.io.LineIterator.closeQuietly(org.apache.commons.io.LineIterator)	true	4392
+231.json	org.apache.commons.io.input.NullInputStream.processBytes(byte[], int, int)	227.json	org.apache.commons.io.input.NullInputStream.read(byte[], int, int)	true	4116
+160.json	org.apache.commons.io.FilenameUtils.directoryContains(java.lang.String, java.lang.String)	1091.json	org.apache.commons.io.FileUtils.directoryContains(java.io.File, java.io.File)	true	2183
+532.json	org.apache.commons.io.comparator.DefaultFileComparator.compare(java.io.File, java.io.File)	noCall	noCall	true	3662
+522.json	org.apache.commons.io.comparator.ReverseComparator.compare(java.io.File, java.io.File)	noCall	noCall	true	3662
+163.json	org.apache.commons.io.FilenameUtils.separatorsToSystem(java.lang.String)	noCall	noCall	true	4824
+934.json	org.apache.commons.io.output.TeeOutputStream.close()	noCall	noCall	true	5805
+100.json	org.apache.commons.io.filefilter.NotFileFilter.accept(java.io.File)	noCall	noCall	true	5517
+842.json	org.apache.commons.io.output.ThresholdingOutputStream.checkThreshold(int)	836.json,835.json,834.json	org.apache.commons.io.output.ThresholdingOutputStream.write(byte[], int, int),org.apache.commons.io.output.ThresholdingOutputStream.write(byte[]),org.apache.commons.io.output.ThresholdingOutputStream.write(int)	true	5097
+914.json	org.apache.commons.io.output.NullWriter.close()	noCall	noCall	true	4116
+1186.json	org.apache.commons.io.FileSystem.getReservedFileNames()	noCall	noCall	true	58
+527.json	org.apache.commons.io.comparator.DirectoryFileComparator.getType(java.io.File)	526.json	org.apache.commons.io.comparator.DirectoryFileComparator.compare(java.io.File, java.io.File)	true	3333
+634.json	org.apache.commons.io.IOUtils.closeQuietly(java.io.Closeable...)	noCall	noCall	true	1438
+517.json	org.apache.commons.io.comparator.AbstractFileComparator.toString()	523.json,521.json,529.json,531.json,519.json,525.json	org.apache.commons.io.comparator.ReverseComparator.toString(),org.apache.commons.io.comparator.PathFileComparator.toString(),org.apache.commons.io.comparator.ExtensionFileComparator.toString(),org.apache.commons.io.comparator.CompositeFileComparator.toString(),org.apache.commons.io.comparator.NameFileComparator.toString(),org.apache.commons.io.comparator.SizeFileComparator.toString()	true	3333
+321.json	org.apache.commons.io.input.NullReader.getPosition()	noCall	noCall	true	4116
+1102.json	org.apache.commons.io.FileUtils.getUserDirectory()	noCall	noCall	true	2720
+611.json	org.apache.commons.io.monitor.FileAlterationMonitor.stop(long)	610.json	org.apache.commons.io.monitor.FileAlterationMonitor.stop()	true	3570
+604.json	org.apache.commons.io.monitor.FileAlterationMonitor.getInterval()	noCall	noCall	true	2649
+1064.json	org.apache.commons.io.FileUtils.checksum(java.io.File, java.util.zip.Checksum)	1065.json	org.apache.commons.io.FileUtils.checksumCRC32(java.io.File)	true	4156
+196.json	org.apache.commons.io.FileCleaner.track(java.io.File, java.lang.Object)	noCall	noCall	true	5051
+529.json	org.apache.commons.io.comparator.ExtensionFileComparator.toString()	noCall	noCall	true	3333
+540.json	org.apache.commons.io.serialization.ValidatingObjectInputStream.reject(java.lang.Class<?>...)	noCall	noCall	true	787
+354.json	org.apache.commons.io.input.ObservableInputStream.noteDataBytes(byte[], int, int)	352.json,353.json	org.apache.commons.io.input.ObservableInputStream.read(byte[]),org.apache.commons.io.input.ObservableInputStream.read(byte[], int, int)	true	563
+295.json	org.apache.commons.io.input.BoundedInputStream.available()	noCall	noCall	true	2665
+1151.json	org.apache.commons.io.FileUtils.validateListFilesParameters(java.io.File, org.apache.commons.io.filefilter.IOFileFilter)	1118.json,1120.json	org.apache.commons.io.FileUtils.listFiles(java.io.File, org.apache.commons.io.filefilter.IOFileFilter, org.apache.commons.io.filefilter.IOFileFilter),org.apache.commons.io.FileUtils.listFilesAndDirs(java.io.File, org.apache.commons.io.filefilter.IOFileFilter, org.apache.commons.io.filefilter.IOFileFilter)	true	2145
+631.json	org.apache.commons.io.IOUtils.closeQuietly(java.net.ServerSocket)	noCall	noCall	true	2252
+505.json	org.apache.commons.io.LineIterator.remove()	noCall	noCall	true	4392
+243.json	org.apache.commons.io.input.SwappedDataInputStream.readChar()	noCall	noCall	true	5669
+521.json	org.apache.commons.io.comparator.PathFileComparator.toString()	noCall	noCall	true	3333
+1118.json	org.apache.commons.io.FileUtils.listFiles(java.io.File, org.apache.commons.io.filefilter.IOFileFilter, org.apache.commons.io.filefilter.IOFileFilter)	1119.json,1113.json	org.apache.commons.io.FileUtils.listFiles(java.io.File, java.lang.String[], boolean),org.apache.commons.io.FileUtils.iterateFiles(java.io.File, org.apache.commons.io.filefilter.IOFileFilter, org.apache.commons.io.filefilter.IOFileFilter)	true	5167
+1081.json	org.apache.commons.io.FileUtils.copyInputStreamToFile(java.io.InputStream, java.io.File)	1086.json,1085.json	org.apache.commons.io.FileUtils.copyURLToFile(java.net.URL, java.io.File, int, int),org.apache.commons.io.FileUtils.copyURLToFile(java.net.URL, java.io.File)	true	2685
+139.json	org.apache.commons.io.ByteOrderMark.hashCode()	noCall	noCall	true	2660
+587.json	org.apache.commons.io.monitor.FileEntry.refresh(java.io.File)	583.json,580.json,576.json	org.apache.commons.io.monitor.FileAlterationObserver.doMatch(org.apache.commons.io.monitor.FileEntry, java.io.File),org.apache.commons.io.monitor.FileAlterationObserver.createFileEntry(org.apache.commons.io.monitor.FileEntry, java.io.File),org.apache.commons.io.monitor.FileAlterationObserver.initialize()	true	3570
+384.json	org.apache.commons.io.input.BoundedReader.mark(int)	noCall	noCall	true	1175
+879.json	org.apache.commons.io.output.ByteArrayOutputStream.close()	noCall	noCall	true	5399
+890.json	org.apache.commons.io.output.BrokenOutputStream.flush()	noCall	noCall	true	3264
+51.json	org.apache.commons.io.filefilter.WildcardFileFilter.accept(java.io.File, java.lang.String)	noCall	noCall	true	4221
+612.json	org.apache.commons.io.monitor.FileAlterationMonitor.run()	noCall	noCall	true	3570
+1050.json	org.apache.commons.io.IOCase.getName()	1048.json	org.apache.commons.io.IOCase.forName(java.lang.String)	true	4221
+177.json	org.apache.commons.io.FilenameUtils.getExtension(java.lang.String)	528.json,186.json,185.json,187.json	org.apache.commons.io.comparator.ExtensionFileComparator.compare(java.io.File, java.io.File),org.apache.commons.io.FilenameUtils.isExtension(java.lang.String, java.lang.String[]),org.apache.commons.io.FilenameUtils.isExtension(java.lang.String, java.lang.String),org.apache.commons.io.FilenameUtils.isExtension(java.lang.String, java.util.Collection<java.lang.String>)	true	5669
+278.json	org.apache.commons.io.input.Tailer.getDelay()	noCall	noCall	true	2664
+936.json	org.apache.commons.io.output.ProxyWriter.append(java.lang.CharSequence, int, int)	noCall	noCall	true	3630
+79.json	org.apache.commons.io.filefilter.AndFileFilter.setFileFilters(java.util.List<org.apache.commons.io.filefilter.IOFileFilter>)	noCall	noCall	true	4830
+206.json	org.apache.commons.io.input.CharSequenceReader.close()	noCall	noCall	true	3662
+1129.json	org.apache.commons.io.FileUtils.readFileToByteArray(java.io.File)	noCall	noCall	true	4931
+598.json	org.apache.commons.io.monitor.FileEntry.getLength()	noCall	noCall	true	2656
+582.json	org.apache.commons.io.monitor.FileAlterationObserver.doCreate(org.apache.commons.io.monitor.FileEntry)	582.json,579.json	org.apache.commons.io.monitor.FileAlterationObserver.doCreate(org.apache.commons.io.monitor.FileEntry),org.apache.commons.io.monitor.FileAlterationObserver.checkAndNotify(org.apache.commons.io.monitor.FileEntry, org.apache.commons.io.monitor.FileEntry[], java.io.File[])	true	3570
+219.json	org.apache.commons.io.input.NullInputStream.getPosition()	noCall	noCall	true	4116
+1139.json	org.apache.commons.io.FileUtils.sizeOf0(java.io.File)	1143.json	org.apache.commons.io.FileUtils.sizeOfDirectory0(java.io.File)	true	1649
+1130.json	org.apache.commons.io.FileUtils.readFileToString(java.io.File)	noCall	noCall	true	4034
+1134.json	org.apache.commons.io.FileUtils.readLines(java.io.File, java.nio.charset.Charset)	1133.json,1135.json	org.apache.commons.io.FileUtils.readLines(java.io.File),org.apache.commons.io.FileUtils.readLines(java.io.File, java.lang.String)	true	4534
+548.json	org.apache.commons.io.serialization.FullClassNameMatcher.matches(java.lang.String)	noCall	noCall	true	787
+622.json	org.apache.commons.io.IOUtils.buffer(java.io.InputStream, int)	noCall	noCall	true	1543
+175.json	org.apache.commons.io.FilenameUtils.failIfNullBytePresent(java.lang.String)	158.json,170.json,174.json,186.json,167.json,185.json,187.json,179.json	org.apache.commons.io.FilenameUtils.doNormalize(java.lang.String, char, boolean),org.apache.commons.io.FilenameUtils.doGetPath(java.lang.String, int),org.apache.commons.io.FilenameUtils.getName(java.lang.String),org.apache.commons.io.FilenameUtils.isExtension(java.lang.String, java.lang.String[]),org.apache.commons.io.FilenameUtils.getPrefix(java.lang.String),org.apache.commons.io.FilenameUtils.isExtension(java.lang.String, java.lang.String),org.apache.commons.io.FilenameUtils.isExtension(java.lang.String, java.util.Collection<java.lang.String>),org.apache.commons.io.FilenameUtils.removeExtension(java.lang.String)	true	892
+241.json	org.apache.commons.io.input.SwappedDataInputStream.readBoolean()	noCall	noCall	true	5669
+1055.json	org.apache.commons.io.IOCase.checkEndsWith(java.lang.String, java.lang.String)	68.json,69.json	org.apache.commons.io.filefilter.SuffixFileFilter.accept(java.io.File),org.apache.commons.io.filefilter.SuffixFileFilter.accept(java.io.File, java.lang.String)	true	4221
+92.json	org.apache.commons.io.filefilter.DelegateFileFilter.accept(java.io.File)	noCall	noCall	true	5650
+590.json	org.apache.commons.io.monitor.FileEntry.getLevel()	590.json	org.apache.commons.io.monitor.FileEntry.getLevel()	true	3570
+186.json	org.apache.commons.io.FilenameUtils.isExtension(java.lang.String, java.lang.String[])	noCall	noCall	true	4824
+1161.json	org.apache.commons.io.FileUtils.writeByteArrayToFile(java.io.File, byte[])	noCall	noCall	true	4931
+95.json	org.apache.commons.io.filefilter.EmptyFileFilter.accept(java.io.File)	noCall	noCall	true	4194
+280.json	org.apache.commons.io.input.Tailer.stop()	279.json	org.apache.commons.io.input.Tailer.run()	true	2664
+766.json	org.apache.commons.io.DirectoryWalker.checkIfCancelled(java.io.File, int, java.util.Collection<T>)	765.json	org.apache.commons.io.DirectoryWalker.walk(java.io.File, int, java.util.Collection<T>)	true	4060
+440.json	org.apache.commons.io.input.BOMInputStream.find()	437.json	org.apache.commons.io.input.BOMInputStream.getBOM()	true	2660
+848.json	org.apache.commons.io.output.StringBuilderWriter.append(java.lang.CharSequence)	noCall	noCall	true	3630
+921.json	org.apache.commons.io.output.DeferredFileOutputStream.thresholdReached()	noCall	noCall	true	5097
+1172.json	org.apache.commons.io.FileUtils.writeLines(java.io.File, java.lang.String, java.util.Collection<?>, java.lang.String, boolean)	1166.json,1167.json,1169.json,1171.json,1170.json,1168.json,1165.json	org.apache.commons.io.FileUtils.writeLines(java.io.File, java.util.Collection<?>, boolean),org.apache.commons.io.FileUtils.writeLines(java.io.File, java.util.Collection<?>, java.lang.String),org.apache.commons.io.FileUtils.writeLines(java.io.File, java.lang.String, java.util.Collection<?>),org.apache.commons.io.FileUtils.writeLines(java.io.File, java.lang.String, java.util.Collection<?>, java.lang.String),org.apache.commons.io.FileUtils.writeLines(java.io.File, java.lang.String, java.util.Collection<?>, boolean),org.apache.commons.io.FileUtils.writeLines(java.io.File, java.util.Collection<?>, java.lang.String, boolean),org.apache.commons.io.FileUtils.writeLines(java.io.File, java.util.Collection<?>)	true	2500
+116.json	org.apache.commons.io.EndianUtils.readSwappedLong(byte[], int)	120.json,128.json	org.apache.commons.io.EndianUtils.readSwappedDouble(byte[], int),org.apache.commons.io.EndianUtils.readSwappedLong(java.io.InputStream)	true	5287
+427.json	org.apache.commons.io.input.XmlStreamReader.doLenientDetection(java.lang.String, org.apache.commons.io.input.XmlStreamReaderException)	425.json,426.json	org.apache.commons.io.input.XmlStreamReader.doRawStream(org.apache.commons.io.input.BOMInputStream, org.apache.commons.io.input.BOMInputStream, boolean),org.apache.commons.io.input.XmlStreamReader.doHttpStream(org.apache.commons.io.input.BOMInputStream, org.apache.commons.io.input.BOMInputStream, java.lang.String, boolean)	true	2660
+147.json	org.apache.commons.io.FileCleaningTracker.getDeleteFailures()	noCall	noCall	true	2656
+106.json	org.apache.commons.io.EndianUtils.swapLong(long)	108.json	org.apache.commons.io.EndianUtils.swapDouble(double)	true	5287
+782.json	org.apache.commons.io.output.XmlStreamWriter.flush()	noCall	noCall	true	2660
+1133.json	org.apache.commons.io.FileUtils.readLines(java.io.File)	noCall	noCall	true	4034
+831.json	org.apache.commons.io.output.ProxyOutputStream.beforeWrite(int)	828.json,826.json,827.json	org.apache.commons.io.output.ProxyOutputStream.write(byte[], int, int),org.apache.commons.io.output.ProxyOutputStream.write(int),org.apache.commons.io.output.ProxyOutputStream.write(byte[])	true	3072
+494.json	org.apache.commons.io.FileSystemUtils.performCommand(java.lang.String[], int, long)	490.json,492.json	org.apache.commons.io.FileSystemUtils.freeSpaceWindows(java.lang.String, long),org.apache.commons.io.FileSystemUtils.freeSpaceUnix(java.lang.String, boolean, boolean, long)	true	4160
+211.json	org.apache.commons.io.input.CharSequenceReader.reset()	noCall	noCall	true	3662
+129.json	org.apache.commons.io.EndianUtils.writeSwappedFloat(java.io.OutputStream, float)	noCall	noCall	true	5287
+765.json	org.apache.commons.io.DirectoryWalker.walk(java.io.File, int, java.util.Collection<T>)	764.json,765.json	org.apache.commons.io.DirectoryWalker.walk(java.io.File, java.util.Collection<T>),org.apache.commons.io.DirectoryWalker.walk(java.io.File, int, java.util.Collection<T>)	true	4193
+645.json	org.apache.commons.io.IOUtils.copy(java.io.InputStream, java.io.OutputStream)	1084.json,1064.json,702.json,926.json	org.apache.commons.io.FileUtils.copyToFile(java.io.InputStream, java.io.File),org.apache.commons.io.FileUtils.checksum(java.io.File, java.util.zip.Checksum),org.apache.commons.io.IOUtils.toByteArray(java.io.InputStream),org.apache.commons.io.output.DeferredFileOutputStream.writeTo(java.io.OutputStream)	true	4902
+1180.json	org.apache.commons.io.FileSystem.getOsMatchesName(java.lang.String)	noCall	noCall	true	60
+299.json	org.apache.commons.io.input.BoundedInputStream.mark(int)	noCall	noCall	true	2665
+425.json	org.apache.commons.io.input.XmlStreamReader.doRawStream(org.apache.commons.io.input.BOMInputStream, org.apache.commons.io.input.BOMInputStream, boolean)	noCall	noCall	true	2660
+1169.json	org.apache.commons.io.FileUtils.writeLines(java.io.File, java.lang.String, java.util.Collection<?>)	noCall	noCall	true	4491
+324.json	org.apache.commons.io.input.NullReader.mark(int)	noCall	noCall	true	4116
+49.json	org.apache.commons.io.filefilter.CanWriteFileFilter.accept(java.io.File)	noCall	noCall	true	4194
+29.json	org.apache.commons.io.filefilter.FileFilterUtils.ageFileFilter(long, boolean)	noCall	noCall	true	4396
+554.json	org.apache.commons.io.CopyUtils.copy(java.io.InputStream, java.io.OutputStream)	noCall	noCall	true	5260
+720.json	org.apache.commons.io.IOUtils.toInputStream(java.lang.String, java.nio.charset.Charset)	717.json,719.json	org.apache.commons.io.IOUtils.toInputStream(java.lang.CharSequence, java.nio.charset.Charset),org.apache.commons.io.IOUtils.toInputStream(java.lang.String)	true	4666
+143.json	org.apache.commons.io.FileCleaningTracker.track(java.lang.String, java.lang.Object)	198.json	org.apache.commons.io.FileCleaner.track(java.lang.String, java.lang.Object)	true	3960
+607.json	org.apache.commons.io.monitor.FileAlterationMonitor.removeObserver(org.apache.commons.io.monitor.FileAlterationObserver)	noCall	noCall	true	3570
+150.json	org.apache.commons.io.FileCleaningTracker.Tracker.getPath()	149.json	org.apache.commons.io.FileCleaningTracker.Reaper.run()	true	2656
+22.json	org.apache.commons.io.filefilter.FileFilterUtils.toList(org.apache.commons.io.filefilter.IOFileFilter...)	20.json,21.json	org.apache.commons.io.filefilter.FileFilterUtils.and(org.apache.commons.io.filefilter.IOFileFilter...),org.apache.commons.io.filefilter.FileFilterUtils.or(org.apache.commons.io.filefilter.IOFileFilter...)	true	2665
+563.json	org.apache.commons.io.monitor.FileAlterationListenerAdaptor.onStart(org.apache.commons.io.monitor.FileAlterationObserver)	noCall	noCall	true	3570
+751.json	org.apache.commons.io.IOUtils.write(java.lang.StringBuffer, java.io.OutputStream, java.lang.String)	750.json	org.apache.commons.io.IOUtils.write(java.lang.StringBuffer, java.io.OutputStream)	true	4902
+1126.json	org.apache.commons.io.FileUtils.openInputStream(java.io.File)	1129.json,1134.json,1117.json,1131.json	org.apache.commons.io.FileUtils.readFileToByteArray(java.io.File),org.apache.commons.io.FileUtils.readLines(java.io.File, java.nio.charset.Charset),org.apache.commons.io.FileUtils.lineIterator(java.io.File, java.lang.String),org.apache.commons.io.FileUtils.readFileToString(java.io.File, java.nio.charset.Charset)	true	4034
+935.json	org.apache.commons.io.output.ProxyWriter.append(char)	noCall	noCall	true	3630
+80.json	org.apache.commons.io.filefilter.AndFileFilter.accept(java.io.File)	noCall	noCall	true	5357
+754.json	org.apache.commons.io.IOUtils.writeChunked(char[], java.io.Writer)	noCall	noCall	true	1686
+367.json	org.apache.commons.io.input.TaggedInputStream.isCauseOf(java.lang.Throwable)	noCall	noCall	true	3264
+473.json	org.apache.commons.io.input.TailerListenerAdapter.endOfFileReached()	281.json	org.apache.commons.io.input.Tailer.readLines(java.io.RandomAccessFile)	true	938
+247.json	org.apache.commons.io.input.SwappedDataInputStream.readFully(byte[], int, int)	246.json	org.apache.commons.io.input.SwappedDataInputStream.readFully(byte[])	true	5669
+502.json	org.apache.commons.io.LineIterator.next()	noCall	noCall	true	4392
+262.json	org.apache.commons.io.input.ClassLoaderObjectInputStream.resolveClass(java.io.ObjectStreamClass)	noCall	noCall	true	5669
+89.json	org.apache.commons.io.filefilter.AbstractFileFilter.accept(java.io.File)	92.json,90.json	org.apache.commons.io.filefilter.DelegateFileFilter.accept(java.io.File),org.apache.commons.io.filefilter.AbstractFileFilter.accept(java.io.File, java.lang.String)	true	5650
+680.json	org.apache.commons.io.IOUtils.readFully(java.io.Reader, char[])	noCall	noCall	true	2252
+602.json	org.apache.commons.io.monitor.FileEntry.isDirectory()	583.json,582.json,584.json	org.apache.commons.io.monitor.FileAlterationObserver.doMatch(org.apache.commons.io.monitor.FileEntry, java.io.File),org.apache.commons.io.monitor.FileAlterationObserver.doCreate(org.apache.commons.io.monitor.FileEntry),org.apache.commons.io.monitor.FileAlterationObserver.doDelete(org.apache.commons.io.monitor.FileEntry)	true	3570
+787.json	org.apache.commons.io.output.CloseShieldOutputStream.close()	noCall	noCall	true	3747
+733.json	org.apache.commons.io.IOUtils.toString(java.net.URL, java.lang.String)	noCall	noCall	true	2469
+672.json	org.apache.commons.io.IOUtils.read(java.io.InputStream, byte[], int, int)	677.json,671.json	org.apache.commons.io.IOUtils.readFully(java.io.InputStream, byte[], int, int),org.apache.commons.io.IOUtils.read(java.io.InputStream, byte[])	true	2252
+38.json	org.apache.commons.io.filefilter.FileFilterUtils.magicNumberFileFilter(java.lang.String, long)	noCall	noCall	true	2872
+829.json	org.apache.commons.io.output.ProxyOutputStream.flush()	933.json	org.apache.commons.io.output.TeeOutputStream.flush()	true	5517
+413.json	org.apache.commons.io.input.CharSequenceInputStream.mark(int)	noCall	noCall	true	2145
+259.json	org.apache.commons.io.input.WindowsLineEndingInputStream.close()	noCall	noCall	true	1175
+460.json	org.apache.commons.io.input.ProxyInputStream.beforeRead(int)	451.json,452.json,453.json	org.apache.commons.io.input.ProxyInputStream.read(),org.apache.commons.io.input.ProxyInputStream.read(byte[]),org.apache.commons.io.input.ProxyInputStream.read(byte[], int, int)	true	3072
+121.json	org.apache.commons.io.EndianUtils.writeSwappedShort(java.io.OutputStream, short)	noCall	noCall	true	5287
+342.json	org.apache.commons.io.input.BrokenInputStream.close()	noCall	noCall	true	3264
+188.json	org.apache.commons.io.FilenameUtils.wildcardMatch(java.lang.String, java.lang.String)	1.json,547.json,2.json	org.apache.commons.io.filefilter.WildcardFilter.accept(java.io.File, java.lang.String),org.apache.commons.io.serialization.WildcardClassNameMatcher.matches(java.lang.String),org.apache.commons.io.filefilter.WildcardFilter.accept(java.io.File)	true	4868
+59.json	org.apache.commons.io.filefilter.OrFileFilter.accept(java.io.File, java.lang.String)	noCall	noCall	true	5650
+603.json	org.apache.commons.io.monitor.FileEntry.setDirectory(boolean)	noCall	noCall	true	3570
+1160.json	org.apache.commons.io.FileUtils.write(java.io.File, java.lang.CharSequence, java.lang.String, boolean)	1159.json	org.apache.commons.io.FileUtils.write(java.io.File, java.lang.CharSequence, java.lang.String)	true	3630
+802.json	org.apache.commons.io.output.NullOutputStream.write(byte[], int, int)	noCall	noCall	true	5399
+606.json	org.apache.commons.io.monitor.FileAlterationMonitor.addObserver(org.apache.commons.io.monitor.FileAlterationObserver)	noCall	noCall	true	3570
+459.json	org.apache.commons.io.input.ProxyInputStream.markSupported()	noCall	noCall	true	5517
+871.json	org.apache.commons.io.output.CountingOutputStream.resetCount()	noCall	noCall	true	4964
+112.json	org.apache.commons.io.EndianUtils.writeSwappedInteger(byte[], int, int)	117.json	org.apache.commons.io.EndianUtils.writeSwappedFloat(byte[], int, float)	true	5287
+495.json	org.apache.commons.io.FileSystemUtils.openProcess(java.lang.String[])	494.json	org.apache.commons.io.FileSystemUtils.performCommand(java.lang.String[], int, long)	true	4160
+601.json	org.apache.commons.io.monitor.FileEntry.setExists(boolean)	noCall	noCall	true	3570
+1092.json	org.apache.commons.io.FileUtils.doCopyDirectory(java.io.File, java.io.File, java.io.FileFilter, boolean, java.util.List<java.lang.String>)	1092.json,1074.json	org.apache.commons.io.FileUtils.doCopyDirectory(java.io.File, java.io.File, java.io.FileFilter, boolean, java.util.List<java.lang.String>),org.apache.commons.io.FileUtils.copyDirectory(java.io.File, java.io.File, java.io.FileFilter, boolean)	true	4711
+692.json	org.apache.commons.io.IOUtils.skip(java.io.InputStream, long)	695.json	org.apache.commons.io.IOUtils.skipFully(java.io.InputStream, long)	true	2869
+638.json	org.apache.commons.io.IOUtils.closeQuietly(java.nio.channels.Selector)	noCall	noCall	true	2186
+1096.json	org.apache.commons.io.FileUtils.forceMkdir(java.io.File)	1097.json	org.apache.commons.io.FileUtils.forceMkdirParent(java.io.File)	true	5669
+516.json	org.apache.commons.io.comparator.AbstractFileComparator.sort(java.util.List<java.io.File>)	noCall	noCall	true	3334
+1079.json	org.apache.commons.io.FileUtils.copyFileToDirectory(java.io.File, java.io.File)	1082.json,1083.json	org.apache.commons.io.FileUtils.copyToDirectory(java.io.File, java.io.File),org.apache.commons.io.FileUtils.copyToDirectory(java.lang.Iterable<java.io.File>, java.io.File)	true	5669
+1077.json	org.apache.commons.io.FileUtils.copyFile(java.io.File, java.io.File, boolean)	1080.json,1076.json	org.apache.commons.io.FileUtils.copyFileToDirectory(java.io.File, java.io.File, boolean),org.apache.commons.io.FileUtils.copyFile(java.io.File, java.io.File)	true	5669
+493.json	org.apache.commons.io.FileSystemUtils.parseBytes(java.lang.String, java.lang.String)	492.json,491.json	org.apache.commons.io.FileSystemUtils.freeSpaceUnix(java.lang.String, boolean, boolean, long),org.apache.commons.io.FileSystemUtils.parseDir(java.lang.String, java.lang.String)	true	4160
+30.json	org.apache.commons.io.filefilter.FileFilterUtils.ageFileFilter(java.util.Date)	noCall	noCall	true	4396
+27.json	org.apache.commons.io.filefilter.FileFilterUtils.asFileFilter(java.io.FilenameFilter)	noCall	noCall	true	5230
+269.json	org.apache.commons.io.input.Tailer.create(java.io.File, org.apache.commons.io.input.TailerListener, long, boolean, int)	272.json	org.apache.commons.io.input.Tailer.create(java.io.File, org.apache.commons.io.input.TailerListener, long, boolean)	true	2053
+1138.json	org.apache.commons.io.FileUtils.sizeOf(java.io.File)	noCall	noCall	true	2665
+292.json	org.apache.commons.io.input.BoundedInputStream.read(byte[])	noCall	noCall	true	2665
+39.json	org.apache.commons.io.filefilter.FileFilterUtils.magicNumberFileFilter(byte[])	noCall	noCall	true	2872
+913.json	org.apache.commons.io.output.NullWriter.flush()	noCall	noCall	true	4116
+345.json	org.apache.commons.io.input.ObservableInputStream.Observer.finished()	355.json	org.apache.commons.io.input.ObservableInputStream.noteFinished()	true	563
+34.json	org.apache.commons.io.filefilter.FileFilterUtils.sizeFileFilter(long)	noCall	noCall	true	4396
+530.json	org.apache.commons.io.comparator.CompositeFileComparator.compare(java.io.File, java.io.File)	noCall	noCall	true	3333
+633.json	org.apache.commons.io.IOUtils.close(java.net.URLConnection)	710.json	org.apache.commons.io.IOUtils.toByteArray(java.net.URL)	true	2099
+942.json	org.apache.commons.io.output.ProxyWriter.write(java.lang.String, int, int)	noCall	noCall	true	5131
+371.json	org.apache.commons.io.input.CountingInputStream.afterRead(int)	noCall	noCall	true	3072
+11.json	org.apache.commons.io.filefilter.FileFilterUtils.prefixFileFilter(java.lang.String, org.apache.commons.io.IOCase)	noCall	noCall	true	2720
+212.json	org.apache.commons.io.input.CharSequenceReader.skip(long)	noCall	noCall	true	3662
+592.json	org.apache.commons.io.monitor.FileEntry.setChildren(org.apache.commons.io.monitor.FileEntry[])	579.json,580.json,576.json	org.apache.commons.io.monitor.FileAlterationObserver.checkAndNotify(org.apache.commons.io.monitor.FileEntry, org.apache.commons.io.monitor.FileEntry[], java.io.File[]),org.apache.commons.io.monitor.FileAlterationObserver.createFileEntry(org.apache.commons.io.monitor.FileEntry, java.io.File),org.apache.commons.io.monitor.FileAlterationObserver.initialize()	true	3570
+288.json	org.apache.commons.io.input.MessageDigestCalculatingInputStream.MessageDigestMaintainingObserver.data(int)	noCall	noCall	true	563
+382.json	org.apache.commons.io.input.BoundedReader.close()	noCall	noCall	true	1175
+1099.json	org.apache.commons.io.FileUtils.getFile(java.lang.String...)	noCall	noCall	true	2500
+725.json	org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.nio.charset.Charset)	732.json,726.json,1131.json,724.json	org.apache.commons.io.IOUtils.toString(java.net.URL, java.nio.charset.Charset),org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.lang.String),org.apache.commons.io.FileUtils.readFileToString(java.io.File, java.nio.charset.Charset),org.apache.commons.io.IOUtils.toString(java.io.InputStream)	true	5287
+428.json	org.apache.commons.io.input.XmlStreamReader.calculateRawEncoding(java.lang.String, java.lang.String, java.lang.String)	425.json,429.json	org.apache.commons.io.input.XmlStreamReader.doRawStream(org.apache.commons.io.input.BOMInputStream, org.apache.commons.io.input.BOMInputStream, boolean),org.apache.commons.io.input.XmlStreamReader.calculateHttpEncoding(java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean)	true	2660
+1091.json	org.apache.commons.io.FileUtils.directoryContains(java.io.File, java.io.File)	noCall	noCall	true	2253
+671.json	org.apache.commons.io.IOUtils.read(java.io.InputStream, byte[])	noCall	noCall	true	2252
+910.json	org.apache.commons.io.output.NullWriter.write(char[], int, int)	noCall	noCall	true	4116
+873.json	org.apache.commons.io.output.CountingOutputStream.resetByteCount()	871.json	org.apache.commons.io.output.CountingOutputStream.resetCount()	true	4964
+724.json	org.apache.commons.io.IOUtils.toString(java.io.InputStream)	noCall	noCall	true	5287
+446.json	org.apache.commons.io.input.BOMInputStream.reset()	noCall	noCall	true	3333
+308.json	org.apache.commons.io.input.ProxyReader.read()	noCall	noCall	true	5131
+853.json	org.apache.commons.io.output.StringBuilderWriter.write(char[], int, int)	noCall	noCall	true	3630
+768.json	org.apache.commons.io.DirectoryWalker.handleCancelled(java.io.File, java.util.Collection<T>, org.apache.commons.io.DirectoryWalker.CancelException)	764.json	org.apache.commons.io.DirectoryWalker.walk(java.io.File, java.util.Collection<T>)	true	4117
+538.json	org.apache.commons.io.serialization.ValidatingObjectInputStream.resolveClass(java.io.ObjectStreamClass)	noCall	noCall	true	787
+4.json	org.apache.commons.io.filefilter.FileFilterUtils.filter(org.apache.commons.io.filefilter.IOFileFilter, java.lang.Iterable<java.io.File>)	noCall	noCall	true	2665
+718.json	org.apache.commons.io.IOUtils.toInputStream(java.lang.CharSequence, java.lang.String)	noCall	noCall	true	3630
+1100.json	org.apache.commons.io.FileUtils.getTempDirectory()	noCall	noCall	true	2720
+172.json	org.apache.commons.io.FilenameUtils.getFullPathNoEndSeparator(java.lang.String)	noCall	noCall	true	4513
+217.json	org.apache.commons.io.input.ReaderInputStream.read()	noCall	noCall	true	3327
+221.json	org.apache.commons.io.input.NullInputStream.available()	noCall	noCall	true	4116
+861.json	org.apache.commons.io.output.LockableFileWriter.initWriter(java.io.File, java.nio.charset.Charset, boolean)	noCall	noCall	true	4326
+165.json	org.apache.commons.io.FilenameUtils.indexOfLastSeparator(java.lang.String)	173.json,170.json,174.json,166.json	org.apache.commons.io.FilenameUtils.doGetFullPath(java.lang.String, boolean),org.apache.commons.io.FilenameUtils.doGetPath(java.lang.String, int),org.apache.commons.io.FilenameUtils.getName(java.lang.String),org.apache.commons.io.FilenameUtils.indexOfExtension(java.lang.String)	true	5056
+173.json	org.apache.commons.io.FilenameUtils.doGetFullPath(java.lang.String, boolean)	171.json,172.json	org.apache.commons.io.FilenameUtils.getFullPath(java.lang.String),org.apache.commons.io.FilenameUtils.getFullPathNoEndSeparator(java.lang.String)	true	4801
+781.json	org.apache.commons.io.output.XmlStreamWriter.close()	noCall	noCall	true	2660
+888.json	org.apache.commons.io.output.ByteArrayOutputStream.toString(java.nio.charset.Charset)	noCall	noCall	true	1730
+496.json	org.apache.commons.io.TaggedIOException.isTaggedWith(java.lang.Throwable, java.lang.Object)	497.json,367.json,823.json	org.apache.commons.io.TaggedIOException.throwCauseIfTaggedWith(java.lang.Throwable, java.lang.Object),org.apache.commons.io.input.TaggedInputStream.isCauseOf(java.lang.Throwable),org.apache.commons.io.output.TaggedOutputStream.isCauseOf(java.lang.Exception)	true	3078
+1132.json	org.apache.commons.io.FileUtils.readFileToString(java.io.File, java.lang.String)	noCall	noCall	true	5167
+1119.json	org.apache.commons.io.FileUtils.listFiles(java.io.File, java.lang.String[], boolean)	1114.json	org.apache.commons.io.FileUtils.iterateFiles(java.io.File, java.lang.String[], boolean)	true	5167
+180.json	org.apache.commons.io.FilenameUtils.equals(java.lang.String, java.lang.String)	noCall	noCall	true	4789
+1082.json	org.apache.commons.io.FileUtils.copyToDirectory(java.io.File, java.io.File)	noCall	noCall	true	258
+926.json	org.apache.commons.io.output.DeferredFileOutputStream.writeTo(java.io.OutputStream)	noCall	noCall	true	4509
+726.json	org.apache.commons.io.IOUtils.toString(java.io.InputStream, java.lang.String)	noCall	noCall	true	5287
+585.json	org.apache.commons.io.monitor.FileAlterationObserver.listFiles(java.io.File)	581.json,578.json,579.json	org.apache.commons.io.monitor.FileAlterationObserver.doListFiles(java.io.File, org.apache.commons.io.monitor.FileEntry),org.apache.commons.io.monitor.FileAlterationObserver.checkAndNotify(),org.apache.commons.io.monitor.FileAlterationObserver.checkAndNotify(org.apache.commons.io.monitor.FileEntry, org.apache.commons.io.monitor.FileEntry[], java.io.File[])	true	3570
+570.json	org.apache.commons.io.monitor.FileAlterationListenerAdaptor.onStop(org.apache.commons.io.monitor.FileAlterationObserver)	noCall	noCall	true	3570
+661.json	org.apache.commons.io.IOUtils.copyLarge(java.io.Reader, java.io.Writer, char[])	660.json	org.apache.commons.io.IOUtils.copyLarge(java.io.Reader, java.io.Writer)	true	4902
+12.json	org.apache.commons.io.filefilter.FileFilterUtils.suffixFileFilter(java.lang.String)	noCall	noCall	true	5357
+1086.json	org.apache.commons.io.FileUtils.copyURLToFile(java.net.URL, java.io.File, int, int)	noCall	noCall	true	2685
+513.json	org.apache.commons.io.ThreadMonitor.sleep(long)	512.json	org.apache.commons.io.ThreadMonitor.run()	true	767
+738.json	org.apache.commons.io.IOUtils.write(char[], java.io.OutputStream)	noCall	noCall	true	4902
+1094.json	org.apache.commons.io.FileUtils.forceDelete(java.io.File)	null,1066.json	org.apache.commons.io.FileDeleteStrategy.ForceFileDeleteStrategy.doDelete(java.io.File),org.apache.commons.io.FileUtils.cleanDirectory(java.io.File)	true	5669
+431.json	org.apache.commons.io.input.XmlStreamReader.getContentTypeEncoding(java.lang.String)	429.json	org.apache.commons.io.input.XmlStreamReader.calculateHttpEncoding(java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean)	true	2660
+15.json	org.apache.commons.io.filefilter.FileFilterUtils.nameFileFilter(java.lang.String, org.apache.commons.io.IOCase)	noCall	noCall	true	2720
+883.json	org.apache.commons.io.output.ByteArrayOutputStream.toBufferedInputStream(java.io.InputStream, int)	882.json,699.json	org.apache.commons.io.output.ByteArrayOutputStream.toBufferedInputStream(java.io.InputStream),org.apache.commons.io.IOUtils.toBufferedInputStream(java.io.InputStream, int)	true	1543
+1084.json	org.apache.commons.io.FileUtils.copyToFile(java.io.InputStream, java.io.File)	1081.json	org.apache.commons.io.FileUtils.copyInputStreamToFile(java.io.InputStream, java.io.File)	true	1712
+303.json	org.apache.commons.io.input.XmlStreamReaderException.getBomEncoding()	427.json	org.apache.commons.io.input.XmlStreamReader.doLenientDetection(java.lang.String, org.apache.commons.io.input.XmlStreamReaderException)	true	2660
+76.json	org.apache.commons.io.filefilter.AndFileFilter.addFileFilter(org.apache.commons.io.filefilter.IOFileFilter)	noCall	noCall	true	4830
+1181.json	org.apache.commons.io.FileSystem.getSystemProperty(java.lang.String)	noCall	noCall	true	60
+127.json	org.apache.commons.io.EndianUtils.writeSwappedLong(java.io.OutputStream, long)	131.json	org.apache.commons.io.EndianUtils.writeSwappedDouble(java.io.OutputStream, double)	true	5287
+740.json	org.apache.commons.io.IOUtils.write(char[], java.io.OutputStream, java.lang.String)	noCall	noCall	true	4902
+6.json	org.apache.commons.io.filefilter.FileFilterUtils.filterList(org.apache.commons.io.filefilter.IOFileFilter, java.io.File...)	noCall	noCall	true	2665
+569.json	org.apache.commons.io.monitor.FileAlterationListenerAdaptor.onFileDelete(java.io.File)	noCall	noCall	true	3570
+637.json	org.apache.commons.io.IOUtils.closeQuietly(java.io.Reader)	494.json	org.apache.commons.io.FileSystemUtils.performCommand(java.lang.String[], int, long)	true	5287
+1098.json	org.apache.commons.io.FileUtils.getFile(java.io.File, java.lang.String...)	noCall	noCall	true	2500
+862.json	org.apache.commons.io.output.LockableFileWriter.close()	noCall	noCall	true	5833
+515.json	org.apache.commons.io.comparator.AbstractFileComparator.sort(java.io.File...)	noCall	noCall	true	3334
+826.json	org.apache.commons.io.output.ProxyOutputStream.write(int)	932.json	org.apache.commons.io.output.TeeOutputStream.write(int)	true	5517
+253.json	org.apache.commons.io.input.SwappedDataInputStream.readUnsignedShort()	noCall	noCall	true	5669
+179.json	org.apache.commons.io.FilenameUtils.removeExtension(java.lang.String)	176.json	org.apache.commons.io.FilenameUtils.getBaseName(java.lang.String)	true	5669
+410.json	org.apache.commons.io.input.CharSequenceInputStream.skip(long)	noCall	noCall	true	2145
+93.json	org.apache.commons.io.filefilter.DelegateFileFilter.accept(java.io.File, java.lang.String)	noCall	noCall	true	5650
+329.json	org.apache.commons.io.input.NullReader.reset()	noCall	noCall	true	4116
+438.json	org.apache.commons.io.input.BOMInputStream.getBOMCharsetName()	425.json,426.json	org.apache.commons.io.input.XmlStreamReader.doRawStream(org.apache.commons.io.input.BOMInputStream, org.apache.commons.io.input.BOMInputStream, boolean),org.apache.commons.io.input.XmlStreamReader.doHttpStream(org.apache.commons.io.input.BOMInputStream, org.apache.commons.io.input.BOMInputStream, java.lang.String, boolean)	true	2660
+183.json	org.apache.commons.io.FilenameUtils.equalsNormalizedOnSystem(java.lang.String, java.lang.String)	noCall	noCall	true	4666
+628.json	org.apache.commons.io.IOUtils.buffer(java.io.Writer, int)	noCall	noCall	true	1543
+1095.json	org.apache.commons.io.FileUtils.forceDeleteOnExit(java.io.File)	1067.json	org.apache.commons.io.FileUtils.cleanDirectoryOnExit(java.io.File)	true	5669
+539.json	org.apache.commons.io.serialization.ValidatingObjectInputStream.accept(java.lang.Class<?>...)	noCall	noCall	true	787
+1140.json	org.apache.commons.io.FileUtils.sizeOfAsBigInteger(java.io.File)	noCall	noCall	true	2099
+486.json	org.apache.commons.io.FileSystemUtils.freeSpaceKb(java.lang.String, long)	485.json,488.json	org.apache.commons.io.FileSystemUtils.freeSpaceKb(java.lang.String),org.apache.commons.io.FileSystemUtils.freeSpaceKb(long)	true	4334
+25.json	org.apache.commons.io.filefilter.FileFilterUtils.falseFileFilter()	noCall	noCall	true	5357
+349.json	org.apache.commons.io.input.ObservableInputStream.remove(org.apache.commons.io.input.ObservableInputStream.Observer)	noCall	noCall	true	563
+234.json	org.apache.commons.io.input.AutoCloseInputStream.afterRead(int)	noCall	noCall	true	3072
+191.json	org.apache.commons.io.FilenameUtils.splitOnTokens(java.lang.String)	190.json	org.apache.commons.io.FilenameUtils.wildcardMatch(java.lang.String, java.lang.String, org.apache.commons.io.IOCase)	true	4868
+583.json	org.apache.commons.io.monitor.FileAlterationObserver.doMatch(org.apache.commons.io.monitor.FileEntry, java.io.File)	579.json	org.apache.commons.io.monitor.FileAlterationObserver.checkAndNotify(org.apache.commons.io.monitor.FileEntry, org.apache.commons.io.monitor.FileEntry[], java.io.File[])	true	3570
+546.json	org.apache.commons.io.serialization.ValidatingObjectInputStream.reject(org.apache.commons.io.serialization.ClassNameMatcher)	noCall	noCall	true	787
+596.json	org.apache.commons.io.monitor.FileEntry.getLastModified()	noCall	noCall	true	3570
+647.json	org.apache.commons.io.IOUtils.copy(java.io.InputStream, java.io.Writer)	noCall	noCall	true	4902
+40.json	org.apache.commons.io.filefilter.FileFilterUtils.magicNumberFileFilter(byte[], long)	noCall	noCall	true	2872
+208.json	org.apache.commons.io.input.CharSequenceReader.markSupported()	noCall	noCall	true	3662
+1071.json	org.apache.commons.io.FileUtils.copyDirectory(java.io.File, java.io.File)	1121.json	org.apache.commons.io.FileUtils.moveDirectory(java.io.File, java.io.File)	true	4711
+96.json	org.apache.commons.io.filefilter.NameFileFilter.accept(java.io.File)	noCall	noCall	true	5167
+19.json	org.apache.commons.io.filefilter.FileFilterUtils.orFileFilter(org.apache.commons.io.filefilter.IOFileFilter, org.apache.commons.io.filefilter.IOFileFilter)	noCall	noCall	true	5517
+167.json	org.apache.commons.io.FilenameUtils.getPrefix(java.lang.String)	173.json	org.apache.commons.io.FilenameUtils.doGetFullPath(java.lang.String, boolean)	true	4801
+370.json	org.apache.commons.io.input.CountingInputStream.skip(long)	noCall	noCall	true	4667
+255.json	org.apache.commons.io.input.SwappedDataInputStream.skipBytes(int)	noCall	noCall	true	5669
+1185.json	org.apache.commons.io.FileSystem.getMaxPathLength()	noCall	noCall	true	60
+1103.json	org.apache.commons.io.FileUtils.getUserDirectoryPath()	1102.json	org.apache.commons.io.FileUtils.getUserDirectory()	true	2720
+1048.json	org.apache.commons.io.IOCase.forName(java.lang.String)	1049.json	org.apache.commons.io.IOCase.readResolve()	true	4221
+62.json	org.apache.commons.io.filefilter.PrefixFileFilter.accept(java.io.File)	noCall	noCall	true	5650
+363.json	org.apache.commons.io.input.TeeInputStream.close()	noCall	noCall	true	3744
+1063.json	org.apache.commons.io.FileUtils.checkFileRequirements(java.io.File, java.io.File)	1077.json,1074.json	org.apache.commons.io.FileUtils.copyFile(java.io.File, java.io.File, boolean),org.apache.commons.io.FileUtils.copyDirectory(java.io.File, java.io.File, java.io.FileFilter, boolean)	true	940
+827.json	org.apache.commons.io.output.ProxyOutputStream.write(byte[])	930.json	org.apache.commons.io.output.TeeOutputStream.write(byte[])	true	5517
+75.json	org.apache.commons.io.filefilter.MagicNumberFileFilter.toString()	noCall	noCall	true	2872
+107.json	org.apache.commons.io.EndianUtils.swapFloat(float)	noCall	noCall	true	5287
+1113.json	org.apache.commons.io.FileUtils.iterateFiles(java.io.File, org.apache.commons.io.filefilter.IOFileFilter, org.apache.commons.io.filefilter.IOFileFilter)	noCall	noCall	true	4396
+850.json	org.apache.commons.io.output.StringBuilderWriter.close()	noCall	noCall	true	3630
+436.json	org.apache.commons.io.input.BOMInputStream.hasBOM(org.apache.commons.io.ByteOrderMark)	noCall	noCall	true	2660
+822.json	org.apache.commons.io.output.WriterOutputStream.checkIbmJdkWithBrokenUTF16(java.nio.charset.Charset)	noCall	noCall	true	756
+110.json	org.apache.commons.io.EndianUtils.readSwappedShort(byte[], int)	noCall	noCall	true	5287
+742.json	org.apache.commons.io.IOUtils.write(java.lang.CharSequence, java.io.OutputStream)	noCall	noCall	true	3630
+1067.json	org.apache.commons.io.FileUtils.cleanDirectoryOnExit(java.io.File)	1089.json	org.apache.commons.io.FileUtils.deleteDirectoryOnExit(java.io.File)	true	5669
+722.json	org.apache.commons.io.IOUtils.toString(byte[])	noCall	noCall	true	5287
+1147.json	org.apache.commons.io.FileUtils.toFiles(java.net.URL[])	noCall	noCall	true	4922
+1136.json	org.apache.commons.io.FileUtils.setUpEffectiveDirFilter(org.apache.commons.io.filefilter.IOFileFilter)	1118.json,1120.json	org.apache.commons.io.FileUtils.listFiles(java.io.File, org.apache.commons.io.filefilter.IOFileFilter, org.apache.commons.io.filefilter.IOFileFilter),org.apache.commons.io.FileUtils.listFilesAndDirs(java.io.File, org.apache.commons.io.filefilter.IOFileFilter, org.apache.commons.io.filefilter.IOFileFilter)	true	2145
+560.json	org.apache.commons.io.CopyUtils.copy(java.lang.String, java.io.OutputStream)	noCall	noCall	true	5260
+364.json	org.apache.commons.io.input.TeeInputStream.read()	noCall	noCall	true	3746
+332.json	org.apache.commons.io.input.NullReader.processChars(char[], int, int)	328.json	org.apache.commons.io.input.NullReader.read(char[], int, int)	true	4116
+688.json	org.apache.commons.io.IOUtils.resourceToString(java.lang.String, java.nio.charset.Charset)	noCall	noCall	true	418
+297.json	org.apache.commons.io.input.BoundedInputStream.close()	noCall	noCall	true	2665
+215.json	org.apache.commons.io.input.ReaderInputStream.read(byte[], int, int)	216.json	org.apache.commons.io.input.ReaderInputStream.read(byte[])	true	3327
+1111.json	org.apache.commons.io.FileUtils.isFileOlder(java.io.File, long)	1109.json,1110.json	org.apache.commons.io.FileUtils.isFileOlder(java.io.File, java.util.Date),org.apache.commons.io.FileUtils.isFileOlder(java.io.File, java.io.File)	true	4192
+209.json	org.apache.commons.io.input.CharSequenceReader.read()	210.json	org.apache.commons.io.input.CharSequenceReader.read(char[], int, int)	true	3662
+905.json	org.apache.commons.io.output.NullWriter.append(char)	noCall	noCall	true	3630
+558.json	org.apache.commons.io.CopyUtils.copy(java.io.Reader, java.io.OutputStream)	noCall	noCall	true	5260
