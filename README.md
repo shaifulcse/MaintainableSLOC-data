@@ -3,7 +3,12 @@
 
 The `data/snaphot-info.txt` file contains: project name checkoutDate  and snapshot for checkout (first two columns). The last two columns contain similar information, but for building fanout information used in RQ3. 
 
+`stats/table-1.pdf` contains informtion for all the projects. 
+
+
 ### RQ1 and RQ2
+
+`stats/table-2.pdf` contains individual project information about correlation with different maintainance indicators.
 
 The `data/metrics/change-metrics/` directory contains measurements for all the 49 Java projects. 
 The first line (header) shows the metrics' names (columns are separated by tab). For each metric measurement, there can be multiple values because we captured the complete evolution history of each method. 
