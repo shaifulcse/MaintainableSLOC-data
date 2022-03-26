@@ -37,4 +37,4 @@ DiscardDays --- We discard any change or bugs (e.g., revision, diff) upto this d
 
 ### RQ4 
 
-The `data/metrics/quality-metrics/` directory contains measurements that were used for RQ4.
+The `data/metrics/quality-metrics/` directory contains measurements that were used for RQ4. This data was collected long after the first three RQs. As we had to calculate other metrics with javaparser, some of the methods had parsing issues. This is why, it contains less number of methods than the other RQs.
